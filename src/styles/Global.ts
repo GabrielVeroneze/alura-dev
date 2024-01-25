@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     body {
+        background-color: ${({ theme }) => theme.cores.fundo.primaria};
         font-family: ${({ theme }) => theme.fontes.familia.primaria};
         min-height: 100vh;
     }
@@ -20,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
 
     button {
         cursor: pointer;
+        outline: none;
     }
 `
 
