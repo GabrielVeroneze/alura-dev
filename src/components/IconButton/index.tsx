@@ -4,11 +4,12 @@ import { Botao } from './styled'
 
 interface IconButtonProps {
     icone: IconDefinition
+    onClick?: () => void
 }
 
-const IconButton = ({ icone }: IconButtonProps) => {
+const IconButton = ({ icone, onClick }: IconButtonProps) => {
     return (
-        <Botao>
+        <Botao onClick={onClick}>
             <FontAwesomeIcon icon={icone} />
         </Botao>
     )
