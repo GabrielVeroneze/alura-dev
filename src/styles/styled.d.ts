@@ -14,6 +14,14 @@ declare module 'styled-components' {
                 primaria: string
                 secundaria: string
             }
+            transparencia: {
+                nenhum: string
+                baixa: string
+                moderada: string
+                consideravel: string
+                significativa: string
+                alta: string
+            }
         }
         fontes: {
             familia: {

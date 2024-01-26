@@ -13,6 +13,14 @@ export const theme: DefaultTheme = {
             primaria: '#FFFFFF',
             secundaria: '#051D3B',
         },
+        transparencia: {
+            nenhum: '00',        // 0%
+            baixa: '14',         // 8%
+            moderada: '29',      // 16%
+            consideravel: '3D',  // 24%
+            significativa: 'A3', // 64%
+            alta: 'B8',          // 72%
+        },
     },
     fontes: {
         familia: {
