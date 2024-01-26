@@ -2,13 +2,16 @@ import { StyledIconButton } from '@/styles/CommonStyles'
 import styled from 'styled-components'
 
 export const Botao = styled(StyledIconButton)`
-    background-color: ${({ theme }) => theme.cores.primaria + '00'};
+    background-color: ${({ theme }) =>
+        theme.cores.primaria + theme.cores.transparencia.nenhum};
 
     &:hover {
-        background-color: ${({ theme }) => theme.cores.primaria + '14'};
+        background-color: ${({ theme }) =>
+            theme.cores.primaria + theme.cores.transparencia.baixa};
     }
 
     &:focus {
-        background-color: ${({ theme }) => theme.cores.primaria + '29'};
+        background-color: ${({ theme }) =>
+            theme.cores.primaria + theme.cores.transparencia.moderada};
     }
 `
