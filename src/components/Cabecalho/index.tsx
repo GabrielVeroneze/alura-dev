@@ -1,6 +1,6 @@
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useMenuAberto } from '@/hooks/useMenuAberto'
-import { Header, MenuIcone } from './styled'
+import { Header, MenuIcone, MenuPerfil } from './styled'
 import Buscador from '@/components/Buscador'
 import IconButton from '@/components/IconButton'
 import Perfil from '@/components/Perfil'
@@ -26,7 +26,9 @@ const Cabecalho = () => {
                     <IconButton icone={faBars} onClick={alternarMenuAberto} />
                 </MenuIcone>
             )}
-            <Perfil />
+            <MenuPerfil>
+                <Perfil />
+            </MenuPerfil>
         </Header>
     )
 }
