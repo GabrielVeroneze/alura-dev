@@ -1,3 +1,4 @@
+import { device } from './Breakpoints'
 import styled from 'styled-components'
 
 export const StyledIconButton = styled.button`
@@ -8,6 +9,10 @@ export const StyledIconButton = styled.button`
     transition-duration: 300ms;
     transition-timing-function: ease-out;
     width: 48px;
+
+    @media ${device.md} {
+        font-size: 24px;
+    }
 `
 
 export const StyledTextField = styled.input`
@@ -17,12 +22,11 @@ export const StyledTextField = styled.input`
     color: ${({ theme }) => theme.cores.texto.primaria};
     font-size: ${({ theme }) => theme.fontes.tamanho.medio};
     line-height: 1.5rem;
-    opacity: 0.64;
     outline: unset;
     padding: 1rem 0.875rem;
     width: 100%;
 
     &::placeholder {
-        color: ${({ theme }) => theme.cores.texto.primaria};
+        color: ${({ theme }) => theme.cores.texto.primaria + theme.cores.transparencia.significativa};
     }
 `
