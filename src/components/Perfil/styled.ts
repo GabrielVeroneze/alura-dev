@@ -1,16 +1,10 @@
-import { device } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const PerfilContainer = styled.div`
     align-items: center;
-    display: none;
+    display: flex;
     gap: 0.5rem;
-    justify-self: end;
     padding: 0.75rem;
-
-    @media ${device.xl} {
-        display: flex;
-    }
 `
 
 export const Imagem = styled.img`
