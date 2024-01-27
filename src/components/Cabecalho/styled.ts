@@ -28,3 +28,12 @@ export const MenuIcone = styled.span`
         display: none;
     }
 `
+
+export const MenuPerfil = styled.div`
+    display: none;
+    justify-self: end;
+
+    @media ${device.xl} {
+        display: block;
+    }
+`
