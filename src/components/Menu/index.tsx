@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useMenuAberto } from '@/hooks/useMenuAberto'
-import { MenuSidebar, WrapperPerfil } from './styled'
+import { MenuSidebar, WrapperPerfil, WrapperTitulo } from './styled'
 import TituloSidebar from '@/components/TituloSidebar'
 import Navegacao from '@/components/Navegacao'
 import Perfil from '@/components/Perfil'
@@ -17,7 +17,9 @@ const Menu = () => {
     return (
         menuAberto && (
             <MenuSidebar>
-                <TituloSidebar>Menu</TituloSidebar>
+                <WrapperTitulo>
+                    <TituloSidebar>Menu</TituloSidebar>
+                </WrapperTitulo>
                 <Navegacao />
                 <hr />
                 <WrapperPerfil>

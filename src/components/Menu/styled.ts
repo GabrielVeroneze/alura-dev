@@ -34,6 +34,7 @@ export const MenuAbsoluto = css`
 
 export const MenuEstatico = css`
     background-color: transparent;
+    padding: 0;
     position: static;
 
     hr {
@@ -44,5 +45,14 @@ export const MenuEstatico = css`
 export const WrapperPerfil = styled.div`
     @media ${device.xl} {
         display: none;
+    }
+`
+
+export const WrapperTitulo = styled.div`
+    display: none;
+
+    @media ${device.xl} {
+        display: block;
+        margin-bottom: 1rem;
     }
 `
