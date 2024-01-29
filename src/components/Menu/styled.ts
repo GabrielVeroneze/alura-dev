@@ -10,8 +10,7 @@ export const MenuSidebar = styled.aside`
 `
 
 export const MenuAbsoluto = css`
-    background-color: ${({ theme }) =>
-        theme.cores.fundo.secundaria + theme.cores.transparencia.moderada};
+    background-color: #2D415B;
     border-radius: 0.5rem;
     height: 571px;
     padding: 1.5rem;
