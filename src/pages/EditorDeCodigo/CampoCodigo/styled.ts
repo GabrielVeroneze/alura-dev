@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const CorDeFundo = styled.div`
     border-radius: 0.5rem;
+    grid-area: editor;
     padding: 2rem;
 `
 

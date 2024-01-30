@@ -6,6 +6,7 @@ export const Botao = styled.button`
     border-radius: 0.5rem;
     color: ${({ theme }) => theme.cores.texto.primaria};
     font-size: 1rem;
+    grid-area: botao;
     line-height: 1.5rem;
     padding: 1rem;
     transition-duration: 300ms;
