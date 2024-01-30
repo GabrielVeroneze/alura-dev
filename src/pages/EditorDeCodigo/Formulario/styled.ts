@@ -1,4 +1,5 @@
 import { StyledTextField } from '@/styles/CommonStyles'
+import { device } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const Form = styled.form`
@@ -7,12 +8,33 @@ export const Form = styled.form`
     gap: 2.5rem;
     grid-area: formulario;
     margin-top: 0.5rem;
+
+    @media ${device.xl} {
+        margin-top: 0;
+    }
 `
 
 export const CampoWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    @media ${device.md} {
+        &:last-of-type {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, max-content);
+            grid-template-areas:
+                'titulo titulo'
+                'select inputCor';
+        }
+    }
+
+    @media ${device.xl} {
+        &:last-of-type {
+            display: flex;
+        }
+    }
 `
 
 export const Input = styled(StyledTextField)``
@@ -34,6 +56,10 @@ export const InputCor = styled.input`
         border-radius: 0.25rem;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     }
+
+    @media ${device.md} {
+        grid-area: inputCor;
+    }
 `
 
 export const InputDescricao = styled(StyledTextField).attrs({
@@ -51,6 +77,10 @@ export const Select = styled(StyledTextField).attrs({
         theme.cores.texto.primaria + theme.cores.transparencia.significativa};
     font-family: ${({ theme }) => theme.fontes.familia.primaria};
     height: 56px;
+
+    @media ${device.md} {
+        grid-area: select;
+    }
 `
 
 export const Opcao = styled.option`
