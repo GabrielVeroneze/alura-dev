@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { CampoWrapper, Form, Input, InputCor, InputDescricao } from './styled'
 import TituloSidebar from '@/components/TituloSidebar'
+import ListaLinguagens from '@/components/ListaLinguagens'
 import Botao from '@/components/Botao'
 
 const Formulario = () => {
@@ -31,6 +32,7 @@ const Formulario = () => {
             </CampoWrapper>
             <CampoWrapper>
                 <TituloSidebar>Personalização</TituloSidebar>
+                <ListaLinguagens />
                 <InputCor
                     type="color"
                     value={corSintaxe}
