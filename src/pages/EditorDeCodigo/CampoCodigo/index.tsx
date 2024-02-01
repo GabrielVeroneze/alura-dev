@@ -1,6 +1,10 @@
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
 
-const CampoCodigo = () => {
+interface CampoCodigoProps {
+    editorRef: React.RefObject<HTMLElement>
+}
+
+const CampoCodigo = ({ editorRef }: CampoCodigoProps) => {
     return (
         <CorDeFundo
             style={{
@@ -8,7 +12,12 @@ const CampoCodigo = () => {
             }}
         >
             <CaixaDeTexto>
-                <Editor></Editor>
+                <Editor
+                    aria-label="Editor de código"
+                    className={`javascript`}
+                    ref={editorRef}
+                    contentEditable={true}
+                ></Editor>
             </CaixaDeTexto>
         </CorDeFundo>
     )
