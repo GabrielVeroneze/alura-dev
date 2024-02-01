@@ -1,8 +1,14 @@
 import { Botao } from './styled'
 
-const BotaoVisualizar = () => {
+interface BotaoVisualizarProps {
+    aplicarHighlight: () => void
+}
+
+const BotaoVisualizar = ({ aplicarHighlight }: BotaoVisualizarProps) => {
     return (
-        <Botao>Visualizar com o highlight</Botao>
+        <Botao onClick={() => aplicarHighlight()}>
+            Visualizar com o highlight
+        </Botao>
     )
 }
 
