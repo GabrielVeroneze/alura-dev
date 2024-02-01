@@ -1,12 +1,11 @@
 import { useState } from 'react'
-import { CampoWrapper, Form, Input, InputCor, InputDescricao, Opcao, Select } from './styled'
+import { CampoWrapper, Form, Input, InputCor, InputDescricao } from './styled'
 import TituloSidebar from '@/components/TituloSidebar'
 import Botao from '@/components/Botao'
 
 const Formulario = () => {
     const [nome, setNome] = useState<string>('')
     const [descricao, setDescricao] = useState<string>('')
-    const [linguagem, setLinguagem] = useState<string>('js')
     const [corSintaxe, setCorSintaxe] = useState<string>('#6BD1FF')
 
     const handleSubmit = (evento: React.FormEvent<HTMLFormElement>) => {
@@ -32,14 +31,6 @@ const Formulario = () => {
             </CampoWrapper>
             <CampoWrapper>
                 <TituloSidebar>Personalização</TituloSidebar>
-                <Select
-                    value={linguagem}
-                    onChange={evento => setLinguagem(evento.target.value)}
-                >
-                    <Opcao value="js">JavaScript</Opcao>
-                    <Opcao value="html">HTML</Opcao>
-                    <Opcao value="css">CSS</Opcao>
-                </Select>
                 <InputCor
                     type="color"
                     value={corSintaxe}

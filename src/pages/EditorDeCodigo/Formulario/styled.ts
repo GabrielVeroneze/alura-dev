@@ -69,20 +69,3 @@ export const InputDescricao = styled(StyledTextField).attrs({
     height: 80px;
     resize: none;
 `
-
-export const Select = styled(StyledTextField).attrs({
-    as: 'select',
-})`
-    color: ${({ theme }) =>
-        theme.cores.texto.primaria + theme.cores.transparencia.significativa};
-    font-family: ${({ theme }) => theme.fontes.familia.primaria};
-    height: 56px;
-
-    @media ${device.md} {
-        grid-area: select;
-    }
-`
-
-export const Opcao = styled.option`
-    background-color: #2d415b;
-`
