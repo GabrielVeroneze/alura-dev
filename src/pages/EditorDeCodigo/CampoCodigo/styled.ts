@@ -27,7 +27,7 @@ export const Editor = styled.code`
     height: 360px;
     line-height: normal;
     outline: none;
-    overflow: scroll;
+    overflow-y: auto;
     padding: 0;
     resize: none;
     text-wrap: wrap;
