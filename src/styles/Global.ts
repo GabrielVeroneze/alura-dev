@@ -23,6 +23,27 @@ const GlobalStyles = createGlobalStyle`
         cursor: pointer;
         outline: none;
     }
+
+    *::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-track {
+        background: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.baixa};
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.moderada};
+        border-radius: 0.625rem;
+    }
+
+    *::-webkit-scrollbar-thumb:hover{
+        background: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.significativa};
+    }
+
+    *::-webkit-scrollbar-thumb:active{
+        background: ${({ theme }) => theme.cores.primaria};
+    }
 `
 
 export default GlobalStyles
