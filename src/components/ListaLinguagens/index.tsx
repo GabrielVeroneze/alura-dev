@@ -1,13 +1,19 @@
-import { useLinguagemHighlight } from '@/hooks/useLinguagemHighlight'
+import { usePersonalizarEditor } from '@/hooks/usePersonalizarEditor'
 import { Opcao, Select } from './styled'
+import listaLinguagens from '@/json/listaLinguagens.json'
 
 const ListaLinguagens = () => {
-    const { linguagemSelecionada, setLinguagemSelecionada, listaLinguagens } = useLinguagemHighlight()
+    const { personalizacao, setPersonalizacao } = usePersonalizarEditor()
 
     return (
         <Select
-            value={linguagemSelecionada}
-            onChange={evento => setLinguagemSelecionada(evento.target.value)}
+            value={personalizacao.linguagem}
+            onChange={evento =>
+                setPersonalizacao({
+                    ...personalizacao,
+                    linguagem: evento.target.value,
+                })
+            }
         >
             {listaLinguagens.map(linguagem => (
                 <Opcao key={linguagem.valor} value={linguagem.valor}>
