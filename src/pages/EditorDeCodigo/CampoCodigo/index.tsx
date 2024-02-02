@@ -1,3 +1,4 @@
+import { useLinguagemHighlight } from '@/hooks/useLinguagemHighlight'
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
 
 interface CampoCodigoProps {
@@ -5,6 +6,8 @@ interface CampoCodigoProps {
 }
 
 const CampoCodigo = ({ editorRef }: CampoCodigoProps) => {
+    const { linguagemSelecionada } = useLinguagemHighlight()
+
     return (
         <CorDeFundo
             style={{
@@ -14,7 +17,7 @@ const CampoCodigo = ({ editorRef }: CampoCodigoProps) => {
             <CaixaDeTexto>
                 <Editor
                     aria-label="Editor de código"
-                    className={`javascript`}
+                    className={linguagemSelecionada}
                     ref={editorRef}
                     contentEditable={true}
                 ></Editor>
