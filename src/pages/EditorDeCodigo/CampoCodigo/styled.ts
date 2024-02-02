@@ -33,6 +33,19 @@ export const Editor = styled.code`
     text-wrap: wrap;
     width: 100%;
 
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #555555;
+        border-radius: 0.625rem;
+    }
+
     &.hljs {
         padding: 0;
     }
