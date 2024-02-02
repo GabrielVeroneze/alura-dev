@@ -1,11 +1,15 @@
 import { atom } from 'recoil'
+import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
 
 export const menuAbertoState = atom<boolean>({
     key: 'menuAbertoState',
     default: false,
 })
 
-export const linguagemHighlightState = atom<string>({
-    key: 'linguagemHighlightState',
-    default: 'javascript',
+export const personalizarEditorState = atom<IPersonalizarEditor>({
+    key: 'personalizarEditorState',
+    default: {
+        linguagem: 'javascript',
+        corDeFundo: '#6BD1FF',
+    },
 })
