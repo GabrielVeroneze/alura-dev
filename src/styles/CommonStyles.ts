@@ -24,9 +24,15 @@ export const StyledTextField = styled.input`
     line-height: 1.5rem;
     outline: unset;
     padding: 1rem 0.875rem;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
     width: 100%;
 
     &::placeholder {
         color: ${({ theme }) => theme.cores.texto.primaria + theme.cores.transparencia.significativa};
+    }
+
+    &:hover {
+        background-color: ${({ theme }) => theme.cores.fundo.secundaria + theme.cores.transparencia.consideravel};
     }
 `
