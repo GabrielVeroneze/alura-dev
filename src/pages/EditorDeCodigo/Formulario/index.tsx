@@ -1,13 +1,14 @@
 import { useState } from 'react'
+import { usePersonalizarEditor } from '@/hooks/usePersonalizarEditor'
 import { CampoWrapper, Form, Input, InputCor, InputDescricao } from './styled'
 import TituloSidebar from '@/components/TituloSidebar'
 import ListaLinguagens from '@/components/ListaLinguagens'
 import Botao from '@/components/Botao'
 
 const Formulario = () => {
+    const { personalizacao, setPersonalizacao } = usePersonalizarEditor()
     const [nome, setNome] = useState<string>('')
     const [descricao, setDescricao] = useState<string>('')
-    const [corSintaxe, setCorSintaxe] = useState<string>('#6BD1FF')
 
     const handleSubmit = (evento: React.FormEvent<HTMLFormElement>) => {
         evento.preventDefault()
@@ -35,8 +36,13 @@ const Formulario = () => {
                 <ListaLinguagens />
                 <InputCor
                     type="color"
-                    value={corSintaxe}
-                    onChange={evento => setCorSintaxe(evento.target.value)}
+                    value={personalizacao.corDeFundo}
+                    onChange={evento => 
+                        setPersonalizacao({
+                            ...personalizacao,
+                            corDeFundo: evento.target.value,
+                        })
+                    }
                 />
             </CampoWrapper>
             <Botao type="submit">Salvar projeto</Botao>
