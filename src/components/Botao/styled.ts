@@ -8,6 +8,8 @@ export const Button = styled.button`
     height: 56px;
     line-height: 1.5rem;
     padding: 1rem;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
     width: 100%;
 
     &:hover {
