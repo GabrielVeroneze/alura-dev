@@ -9,11 +9,7 @@ const CampoCodigo = ({ editorRef }: CampoCodigoProps) => {
     const { personalizacao } = usePersonalizarEditor()
 
     return (
-        <CorDeFundo
-            style={{
-                backgroundColor: personalizacao.corDeFundo,
-            }}
-        >
+        <CorDeFundo $background={personalizacao.corFundo}>
             <CaixaDeTexto>
                 <Editor
                     aria-label="Editor de código"

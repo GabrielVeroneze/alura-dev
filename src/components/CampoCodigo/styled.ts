@@ -1,7 +1,8 @@
 import { device } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
-export const CorDeFundo = styled.div`
+export const CorDeFundo = styled.div<{ $background: string }>`
+    background: ${({ $background }) => $background};
     border-radius: 0.5rem;
     grid-area: editor;
     padding: 2rem;
