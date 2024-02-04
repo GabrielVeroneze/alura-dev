@@ -10,6 +10,6 @@ export const personalizarEditorState = atom<IPersonalizarEditor>({
     key: 'personalizarEditorState',
     default: {
         linguagem: 'javascript',
-        corDeFundo: '#6BD1FF',
+        corFundo: '#6BD1FF',
     },
 })
