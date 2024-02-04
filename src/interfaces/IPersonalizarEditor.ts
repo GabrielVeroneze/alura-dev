@@ -1,4 +1,4 @@
 export interface IPersonalizarEditor {
     linguagem: string
-    corDeFundo: string
+    corFundo: string
 }
