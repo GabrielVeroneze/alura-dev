@@ -27,7 +27,7 @@ const Cabecalho = () => {
                 </MenuIcone>
             )}
             <MenuPerfil>
-                <Perfil />
+                <Perfil tamanho="medium" />
             </MenuPerfil>
         </Header>
     )
