@@ -36,3 +36,24 @@ export const StyledTextField = styled.input`
         background-color: ${({ theme }) => theme.cores.fundo.secundaria + theme.cores.transparencia.consideravel};
     }
 `
+
+export const StyledReactButton = styled.button`
+    background-color: ${({ theme }) => theme.cores.fundo.secundaria + theme.cores.transparencia.nenhum};
+    border-radius: 1rem;
+    color: ${({ theme }) => theme.cores.texto.primaria};
+    display: flex;
+    gap: 0.5rem;
+    height: 40px;
+    padding: 0.5rem;
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+    width: 58px;
+
+    &:hover {
+        background-color: ${({ theme }) => theme.cores.fundo.secundaria + theme.cores.transparencia.baixa};
+    }
+
+    &:active {
+        background-color: ${({ theme }) => theme.cores.fundo.secundaria + theme.cores.transparencia.moderada};
+    }
+`
