@@ -1,22 +1,26 @@
-import { usePersonalizarEditor } from '@/hooks/usePersonalizarEditor'
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
+import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
 
 interface CampoCodigoProps {
-    editorRef: React.RefObject<HTMLElement>
+    modo: 'editar' | 'visualizar'
+    codigo?: string
+    personalizacao: IPersonalizarEditor
+    referencia?: React.RefObject<HTMLElement>
 }
 
-const CampoCodigo = ({ editorRef }: CampoCodigoProps) => {
-    const { personalizacao } = usePersonalizarEditor()
-
+const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoProps) => {
     return (
-        <CorDeFundo $background={personalizacao.corFundo}>
-            <CaixaDeTexto>
+        <CorDeFundo $background={personalizacao.corFundo} $modo={modo}>
+            <CaixaDeTexto $modo={modo}>
                 <Editor
+                    $modo={modo}
                     aria-label="Editor de código"
                     className={personalizacao.linguagem}
-                    ref={editorRef}
-                    contentEditable={true}
-                ></Editor>
+                    ref={referencia}
+                    contentEditable={modo === 'editar' ? true : false}
+                >
+                    {codigo}
+                </Editor>
             </CaixaDeTexto>
         </CorDeFundo>
     )
