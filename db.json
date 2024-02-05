@@ -1,0 +1,34 @@
+{
+    "projetos": [
+        {
+            "id": 1,
+            "nome": "Projeto React Dashboard",
+            "descricao": "Um painel de controle React com gráficos e widgets interativos.",
+            "codigo": "import React, { useState, useEffect } from 'react';\n\nfunction Dashboard() {\n  // Lógica do painel de controle\n  return (\n    <div>\n      <h1>React Dashboard</h1>\n      {/* Componentes e gráficos aqui */}\n    </div>\n  );\n}\n\nexport default Dashboard;",
+            "personalizacao": {
+                "corFundo": "#2e4053",
+                "linguagem": "javascript"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Projeto Blog em Node.js",
+            "descricao": "Um blog simples construído usando Node.js, Express e MongoDB.",
+            "codigo": "const express = require('express');\nconst mongoose = require('mongoose');\n// Configurações e rotas do blog\nconst app = express();\nconst PORT = 3000;\napp.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));",
+            "personalizacao": {
+                "corFundo": "#3498db",
+                "linguagem": "javascript"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Projeto Python Flask API",
+            "descricao": "Uma API simples construída usando Flask e SQLAlchemy.",
+            "codigo": "from flask import Flask, jsonify, request\nfrom flask_sqlalchemy import SQLAlchemy\n# Configurações e rotas da API\napp = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'\ndb = SQLAlchemy(app)",
+            "personalizacao": {
+                "corFundo": "#27ae60",
+                "linguagem": "python"
+            }
+        }
+    ]
+}
