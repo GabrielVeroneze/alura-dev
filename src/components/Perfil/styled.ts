@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const PerfilContainer = styled.div`
+export const PerfilContainer = styled.div<{ $tamanho: string }>`
     align-items: center;
     border-radius: 0.5rem;
     display: flex;
     gap: 0.5rem;
-    padding: 0.75rem;
+    padding: ${({ $tamanho }) => $tamanho === 'medium' ? '0.75rem' : '0.5rem'};
     transition-duration: 300ms;
     transition-timing-function: ease-out;
     width: max-content;
@@ -15,10 +15,10 @@ export const PerfilContainer = styled.div`
     }
 `
 
-export const Imagem = styled.img`
+export const Imagem = styled.img<{ $tamanho: string }>`
     border-radius: 50%;
-    height: 32px;
-    width: 32px;
+    height: ${({ $tamanho }) => $tamanho === 'medium' ? '32px' : '24px'};
+    width: ${({ $tamanho }) => $tamanho === 'medium' ? '32px' : '24px'};
 `
 
 export const Nome = styled.p`
