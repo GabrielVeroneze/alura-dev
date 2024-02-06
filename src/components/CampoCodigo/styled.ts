@@ -35,6 +35,7 @@ export const Editor = styled.code<{ $modo: string }>`
     width: 100%;
 
     &::-webkit-scrollbar {
+        height: 6px;
         width: 6px;
     }
 
@@ -45,6 +46,14 @@ export const Editor = styled.code<{ $modo: string }>`
     &::-webkit-scrollbar-thumb {
         background-color: #555555;
         border-radius: 0.625rem;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: #555555;
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+        background-color: #555555;
     }
 
     &.hljs {
