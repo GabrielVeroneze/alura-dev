@@ -25,6 +25,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     *::-webkit-scrollbar {
+        height: 8px;
         width: 8px;
     }
 
