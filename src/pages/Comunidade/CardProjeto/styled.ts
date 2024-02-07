@@ -4,6 +4,11 @@ import styled from 'styled-components'
 export const Card = styled.div`
     background-color: ${({ theme }) => '#000000' + theme.cores.transparencia.moderada};
     border-radius: 0.5rem;
+    height: max-content;
+
+    &:hover ${() => Acoes} {
+        display: grid;
+    }
 `
 
 export const Conteudo = styled.div`
@@ -34,7 +39,7 @@ export const Descricao = styled.p`
 `
 
 export const Acoes = styled.div`
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2, max-content) 1fr;
 
     :last-child {
