@@ -10,6 +10,7 @@ const AppRoutes = () => {
                 <Route path="/" element={<Layout />}>
                     <Route index element={<EditorDeCodigo />} />
                     <Route path="comunidade" element={<Comunidade />} />
+                    <Route path="editar/:id" element={<EditorDeCodigo />} />
                 </Route>
             </Routes>
         </Router>
