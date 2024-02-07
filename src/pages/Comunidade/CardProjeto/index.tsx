@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { IProjeto } from '@/interfaces/IProjeto'
@@ -5,14 +6,16 @@ import { Acoes, Botao, Card, Conteudo, Descricao, Info, Quantidade, Titulo } fro
 import CampoCodigo from '@/components/CampoCodigo'
 import Perfil from '@/components/Perfil'
 
-const CardProjeto = ({ codigo, personalizacao, nome, descricao }: IProjeto) => {
+const CardProjeto = ({ id, codigo, personalizacao, nome, descricao }: IProjeto) => {
     return (
         <Card>
-            <CampoCodigo
-                modo="visualizar"
-                codigo={codigo}
-                personalizacao={personalizacao}
-            />
+            <Link to={`/editar/${id}`}>
+                <CampoCodigo
+                    modo="visualizar"
+                    codigo={codigo}
+                    personalizacao={personalizacao}
+                />
+            </Link>
             <Conteudo>
                 <Info>
                     <Titulo>{nome}</Titulo>
