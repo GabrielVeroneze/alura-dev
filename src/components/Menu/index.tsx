@@ -23,7 +23,7 @@ const Menu = () => {
                 <Navegacao />
                 <hr />
                 <WrapperPerfil>
-                    <Perfil />
+                    <Perfil tamanho="medium" />
                 </WrapperPerfil>
             </MenuSidebar>
         )
