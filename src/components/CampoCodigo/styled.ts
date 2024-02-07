@@ -17,6 +17,17 @@ export const CaixaDeTexto = styled.pre<{ $modo: string }>`
     box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.24);
     color: ${({ theme }) => theme.cores.texto.primaria};
     padding: ${({ $modo }) => $modo === 'editar' ? '3.25rem 1rem 1rem' : '2.25rem 0.75rem 0.75rem'};
+
+    @media ${device.md} {
+        background-position: 1rem 1rem;
+        padding: ${({ $modo }) => $modo === 'editar' ? '3.25rem 1rem 1rem' : '2.75rem 1rem 1rem'};
+    }
+
+    @media ${device.xl} {
+        background-position: ${({ $modo }) => $modo === 'editar' ? '1rem 1rem' : '0.75rem 0.75rem'};
+        background-size: ${({ $modo }) => $modo === 'editar' ? 'auto' : '39px 9px'};
+        padding: ${({ $modo }) => $modo === 'editar' ? '3.25rem 1rem 1rem' : '2.0625rem 0.75rem 0.75rem'};
+    }
 `
 
 export const Editor = styled.code<{ $modo: string }>`
@@ -62,5 +73,10 @@ export const Editor = styled.code<{ $modo: string }>`
 
     @media ${device.md} {
         height: 234px;
+    }
+
+    @media ${device.xl} {
+        font-size: ${({ $modo }) => $modo === 'editar' ? '0.875rem' : '0.6875rem'};
+        height: ${({ $modo }) => $modo === 'editar' ? '360px' : '195px'};
     }
 `
