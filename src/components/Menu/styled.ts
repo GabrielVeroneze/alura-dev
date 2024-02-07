@@ -18,6 +18,7 @@ export const MenuAbsoluto = css`
     right: 16px;
     top: 96px;
     width: 254px;
+    z-index: 99;
 
     hr {
         background-color: ${({ theme }) => theme.cores.fundo.secundaria};
