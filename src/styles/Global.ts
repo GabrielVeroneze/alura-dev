@@ -24,6 +24,10 @@ const GlobalStyles = createGlobalStyle`
         outline: none;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     *::-webkit-scrollbar {
         height: 8px;
         width: 8px;
