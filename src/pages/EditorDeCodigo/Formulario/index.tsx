@@ -36,11 +36,11 @@ const Formulario = () => {
                 <ListaLinguagens />
                 <InputCor
                     type="color"
-                    value={personalizacao.corDeFundo}
+                    value={personalizacao.corFundo}
                     onChange={evento => 
                         setPersonalizacao({
                             ...personalizacao,
-                            corDeFundo: evento.target.value,
+                            corFundo: evento.target.value,
                         })
                     }
                 />
