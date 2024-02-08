@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
 import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
 
@@ -9,6 +10,12 @@ interface CampoCodigoProps {
 }
 
 const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoProps) => {
+    const [conteudo, setConteudo] = useState(codigo)
+
+    const handleChange = (evento: React.ChangeEvent<HTMLElement>) => {
+        setConteudo(evento.target.innerText)
+    }
+
     return (
         <CorDeFundo $background={personalizacao.corFundo} $modo={modo}>
             <CaixaDeTexto $modo={modo}>
@@ -17,7 +24,9 @@ const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoPr
                     aria-label="Editor de código"
                     className={personalizacao.linguagem}
                     ref={referencia}
-                    contentEditable={modo === 'editar' ? true : false}
+                    contentEditable={modo === 'editar'}
+                    onInput={handleChange}
+                    suppressContentEditableWarning={true}
                 >
                     {codigo}
                 </Editor>
