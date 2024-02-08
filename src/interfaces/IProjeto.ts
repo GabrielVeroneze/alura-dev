@@ -1,10 +1,9 @@
+import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
+
 export interface IProjeto {
-    id: number
+    id: string
     nome: string
     descricao: string
     codigo: string
-    personalizacao: {
-        corFundo: string
-        linguagem: string
-    }
+    personalizacao: IPersonalizarEditor
 }
