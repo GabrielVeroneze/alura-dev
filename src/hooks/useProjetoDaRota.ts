@@ -20,13 +20,11 @@ export const useProjetoDaRota = () => {
 
     useEffect(() => {
         if (id) {
-            console.log('A rota possuí id!')
             http.get<IProjeto>(`projetos/${id}`)
-                .then((resposta) => {
+                .then(resposta => {
                     setProjeto(resposta.data)
                 })
         } else {
-            console.log('A rota não possuí id!')
             setProjeto(projetoPadrao)
         }
     }, [id, projetoPadrao])
