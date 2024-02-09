@@ -6,16 +6,36 @@ export const useBuscarProjetos = () => {
     const [projetos, setProjetos] = useState<IProjeto[]>([])
 
     useEffect(() => {
-        http.get<IProjeto[]>('projetos')
+        carregarProjetos()
+    }, [])
+
+    const carregarProjetos = () => {
+        http
+            .get<IProjeto[]>('projetos')
             .then(resposta => {
                 setProjetos(resposta.data)
             })
-            .catch(erro => {
-                console.log(erro)
+    }
+
+    const cadastrarProjeto = (projeto: IProjeto) => {
+        http
+            .post('projetos', projeto)
+            .then(() => {
+                alert('Projeto cadastrado com sucesso!')
             })
-    }, [])
+    }
+
+    const editarProjeto = (projeto: IProjeto) => {
+        http
+            .put(`projetos/${projeto.id}`, projeto)
+            .then(() => {
+                alert('Projeto atualizado com sucesso!')
+            })
+    }
 
     return {
         projetos,
+        cadastrarProjeto,
+        editarProjeto,
     }
 }
