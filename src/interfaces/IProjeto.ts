@@ -6,4 +6,6 @@ export interface IProjeto {
     descricao: string
     codigo: string
     personalizacao: IPersonalizarEditor
+    quantidadeComentarios: number
+    quantidadeCurtidas: number
 }
