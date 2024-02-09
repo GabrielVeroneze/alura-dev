@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { IProjeto } from '@/interfaces/IProjeto'
 import http from '@/http'
 
-export const useBuscarProjetos = () => {
+export const useManipularProjetos = () => {
     const [projetos, setProjetos] = useState<IProjeto[]>([])
 
     useEffect(() => {
