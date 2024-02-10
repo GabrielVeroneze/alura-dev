@@ -47,8 +47,12 @@ export const Acoes = styled.div`
     }
 `
 
-export const Botao = styled(StyledReactButton)`
+export const Botao = styled(StyledReactButton)<{ $curtido?: boolean }>`
     font-size: 1.5rem;
+
+    &:nth-of-type(2) > :first-child {
+        color: ${({ $curtido }) => $curtido && '#f65151'};
+    }
 `
 
 export const Quantidade = styled.p`
