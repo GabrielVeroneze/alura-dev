@@ -3,13 +3,19 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { useAplicarHighlight } from '@/hooks/useAplicarHighlight'
+import { useCurtirProjeto } from '@/hooks/useCurtirProjeto'
 import { IProjeto } from '@/interfaces/IProjeto'
 import { Acoes, Botao, Card, Conteudo, Descricao, Info, Quantidade, Titulo } from './styled'
 import CampoCodigo from '@/components/CampoCodigo'
 import Perfil from '@/components/Perfil'
 
-const CardProjeto = ({ id, codigo, personalizacao, nome, descricao }: IProjeto) => {
+interface CardProjetoProps {
+    projeto: IProjeto
+}
+
+const CardProjeto = ({ projeto }: CardProjetoProps) => {
     const { codigoRef, aplicarHighlight } = useAplicarHighlight()
+    const { projetoCurtido, curtirProjeto } = useCurtirProjeto()
 
     useLayoutEffect(() => {
         aplicarHighlight()
@@ -17,27 +23,30 @@ const CardProjeto = ({ id, codigo, personalizacao, nome, descricao }: IProjeto) 
 
     return (
         <Card>
-            <Link to={`/editar/${id}`}>
+            <Link to={`/editar/${projeto.id}`}>
                 <CampoCodigo
                     modo="visualizar"
-                    codigo={codigo}
-                    personalizacao={personalizacao}
+                    codigo={projeto.codigo}
+                    personalizacao={projeto.personalizacao}
                     referencia={codigoRef}
                 />
             </Link>
             <Conteudo>
                 <Info>
-                    <Titulo>{nome}</Titulo>
-                    <Descricao>{descricao}</Descricao>
+                    <Titulo>{projeto.nome}</Titulo>
+                    <Descricao>{projeto.descricao}</Descricao>
                 </Info>
                 <Acoes>
                     <Botao>
                         <FontAwesomeIcon icon={faComment} />
-                        <Quantidade>9</Quantidade>
+                        <Quantidade>{projeto.quantidadeComentarios}</Quantidade>
                     </Botao>
-                    <Botao>
+                    <Botao
+                        $curtido={projetoCurtido}
+                        onClick={() => curtirProjeto(projeto)}
+                    >
                         <FontAwesomeIcon icon={faHeart} />
-                        <Quantidade>9</Quantidade>
+                        <Quantidade>{projeto.quantidadeCurtidas}</Quantidade>
                     </Botao>
                     <Perfil tamanho="small" />
                 </Acoes>
