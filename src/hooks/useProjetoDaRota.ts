@@ -14,6 +14,8 @@ export const useProjetoDaRota = () => {
         descricao: '',
         codigo: '',
         personalizacao: personalizacao,
+        quantidadeComentarios: 0,
+        quantidadeCurtidas: 0
     }), [personalizacao])
 
     const [projeto, setProjeto] = useState<IProjeto>(projetoPadrao)
