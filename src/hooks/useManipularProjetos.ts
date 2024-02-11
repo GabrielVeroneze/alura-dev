@@ -35,6 +35,7 @@ export const useManipularProjetos = () => {
 
     return {
         projetos,
+        carregarProjetos,
         cadastrarProjeto,
         editarProjeto,
     }
