@@ -15,7 +15,7 @@ interface CardProjetoProps {
 
 const CardProjeto = ({ projeto }: CardProjetoProps) => {
     const { codigoRef, aplicarHighlight } = useAplicarHighlight()
-    const { projetoCurtido, curtirProjeto } = useCurtirProjeto()
+    const { curtirProjeto } = useCurtirProjeto()
 
     useLayoutEffect(() => {
         aplicarHighlight()
@@ -39,14 +39,18 @@ const CardProjeto = ({ projeto }: CardProjetoProps) => {
                 <Acoes>
                     <Botao>
                         <FontAwesomeIcon icon={faComment} />
-                        <Quantidade>{projeto.quantidadeComentarios}</Quantidade>
+                        <Quantidade>
+                            {projeto.comentarios.quantidade}
+                        </Quantidade>
                     </Botao>
                     <Botao
-                        $curtido={projetoCurtido}
+                        $curtido={projeto.curtidas.curtido}
                         onClick={() => curtirProjeto(projeto)}
                     >
                         <FontAwesomeIcon icon={faHeart} />
-                        <Quantidade>{projeto.quantidadeCurtidas}</Quantidade>
+                        <Quantidade>
+                            {projeto.curtidas.quantidade}
+                        </Quantidade>
                     </Botao>
                     <Perfil tamanho="small" />
                 </Acoes>
