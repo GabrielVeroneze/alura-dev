@@ -1,18 +1,17 @@
-import { usePersonalizarEditor } from '@/hooks/usePersonalizarEditor'
+import { useProjetoAtual } from '@/hooks/useProjetoAtual'
+import { useManipularFormulario } from '@/hooks/useManipularFormulario'
 import { Opcao, Select } from './styled'
 import listaLinguagens from '@/json/listaLinguagens.json'
 
 const ListaLinguagens = () => {
-    const { personalizacao, setPersonalizacao } = usePersonalizarEditor()
+    const { projetoAtual } = useProjetoAtual()
+    const { handlePersonalizarChange } = useManipularFormulario()
 
     return (
         <Select
-            value={personalizacao.linguagem}
+            value={projetoAtual.personalizacao.linguagem}
             onChange={evento =>
-                setPersonalizacao({
-                    ...personalizacao,
-                    linguagem: evento.target.value,
-                })
+                handlePersonalizarChange('linguagem', evento.target.value)
             }
         >
             {listaLinguagens.map(linguagem => (
