@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { exibirMensagem } from '@/utils/mensagemAlerta'
 import { IProjeto } from '@/interfaces/IProjeto'
 import http from '@/http'
 
@@ -21,7 +22,10 @@ export const useManipularProjetos = () => {
         http
             .post('projetos', projeto)
             .then(() => {
-                alert('Projeto cadastrado com sucesso!')
+                exibirMensagem('Projeto adicionado com sucesso!', 'success')
+            })
+            .catch(() => {
+                exibirMensagem('Erro ao cadastrar o projeto.', 'error')
             })
     }
 
@@ -29,7 +33,10 @@ export const useManipularProjetos = () => {
         http
             .put(`projetos/${projeto.id}`, projeto)
             .then(() => {
-                alert('Projeto atualizado com sucesso!')
+                exibirMensagem('Projeto atualizado com sucesso!', 'success')
+            })
+            .catch(() => {
+                exibirMensagem('Erro ao editar o projeto.', 'error')
             })
     }
 
