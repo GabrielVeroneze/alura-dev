@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useManipularFormulario } from '@/hooks/useManipularFormulario'
 import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
@@ -12,7 +11,6 @@ interface CampoCodigoProps {
 
 const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoProps) => {
     const { handleDadosChange } = useManipularFormulario()
-    const [conteudo] = useState(codigo)
 
     return (
         <CorDeFundo $background={personalizacao.corFundo} $modo={modo}>
@@ -23,12 +21,12 @@ const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoPr
                     className={personalizacao.linguagem}
                     ref={referencia}
                     contentEditable={modo === 'editar'}
-                    onInput={(evento: React.ChangeEvent<HTMLElement>) =>
+                    onBlur={evento =>
                         handleDadosChange('codigo', evento.target.innerText)
                     }
                     suppressContentEditableWarning={true}
                 >
-                    {conteudo}
+                    {codigo}
                 </Editor>
             </CaixaDeTexto>
         </CorDeFundo>
