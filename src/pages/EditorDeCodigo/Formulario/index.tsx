@@ -14,6 +14,7 @@ const Formulario = () => {
             <CampoWrapper>
                 <TituloSidebar>Seu projeto</TituloSidebar>
                 <Input
+                    required
                     type="text"
                     placeholder="Nome do seu projeto"
                     value={projetoAtual.nome}
@@ -22,6 +23,7 @@ const Formulario = () => {
                     }
                 />
                 <InputDescricao
+                    required
                     type="text"
                     placeholder="Descrição do seu projeto"
                     value={projetoAtual.descricao}
