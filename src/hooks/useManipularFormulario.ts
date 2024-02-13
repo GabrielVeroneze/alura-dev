@@ -1,5 +1,6 @@
 import { useProjetoAtual } from '@/hooks/useProjetoAtual'
 import { useManipularProjetos } from '@/hooks/useManipularProjetos'
+import { getProjetoDefault } from '@/utils/projetoDefault'
 
 export const useManipularFormulario = () => {
     const { projetoAtual, setProjetoAtual } = useProjetoAtual()
@@ -36,23 +37,7 @@ export const useManipularFormulario = () => {
             cadastrarProjeto(novoProjeto)
         }
 
-        setProjetoAtual({
-            id: '',
-            nome: '',
-            descricao: '',
-            codigo: '',
-            personalizacao: {
-                linguagem: 'javascript',
-                corFundo: '#6BD1FF',
-            },
-            curtidas: {
-                quantidade: 0,
-                curtido: false,
-            },
-            comentarios: {
-                quantidade: 0,
-            },
-        })
+        setProjetoAtual(getProjetoDefault())
     }
 
     return {

@@ -1,25 +1,10 @@
 import { atom } from 'recoil'
+import { getProjetoDefault } from '@/utils/projetoDefault'
 import { IProjeto } from '@/interfaces/IProjeto'
 
 export const projetoAtualState = atom<IProjeto>({
     key: 'projetoAtualState',
-    default: {
-        id: '',
-        nome: '',
-        descricao: '',
-        codigo: '',
-        personalizacao: {
-            linguagem: 'javascript',
-            corFundo: '#6BD1FF',
-        },
-        curtidas: {
-            quantidade: 0,
-            curtido: false,
-        },
-        comentarios: {
-            quantidade: 0,
-        },
-    },
+    default: getProjetoDefault(),
 })
 
 export const menuAbertoState = atom<boolean>({

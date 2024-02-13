@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { useRecoilState } from 'recoil'
 import { useParams } from 'react-router-dom'
 import { projetoAtualState } from '@/state/atom'
+import { getProjetoDefault } from '@/utils/projetoDefault'
 import { IProjeto } from '@/interfaces/IProjeto'
 import http from '@/http'
 
@@ -17,23 +18,7 @@ export const useProjetoAtual = () => {
                     setProjetoAtual(resposta.data)
                 })
         } else {
-            setProjetoAtual({
-                id: '',
-                nome: '',
-                descricao: '',
-                codigo: '',
-                personalizacao: {
-                    linguagem: 'javascript',
-                    corFundo: '#6BD1FF',
-                },
-                curtidas: {
-                    quantidade: 0,
-                    curtido: false,
-                },
-                comentarios: {
-                    quantidade: 0,
-                },
-            })
+            setProjetoAtual(getProjetoDefault())
         }
     }, [id, setProjetoAtual])
 
