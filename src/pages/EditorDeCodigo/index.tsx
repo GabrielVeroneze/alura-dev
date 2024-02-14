@@ -1,9 +1,11 @@
+import { ToastContainer } from 'react-toastify'
 import { useProjetoAtual } from '@/hooks/useProjetoAtual'
 import { useAplicarHighlight } from '@/hooks/useAplicarHighlight'
 import { SecaoEditor } from './styled'
 import CampoCodigo from '@/components/CampoCodigo'
 import BotaoVisualizar from './BotaoVisualizar'
 import Formulario from './Formulario'
+import 'react-toastify/dist/ReactToastify.css'
 
 const EditorDeCodigo = () => {
     const { projetoAtual } = useProjetoAtual()
@@ -19,6 +21,7 @@ const EditorDeCodigo = () => {
             />
             <BotaoVisualizar aplicarHighlight={aplicarHighlight} />
             <Formulario />
+            <ToastContainer />
         </SecaoEditor>
     )
 }

@@ -1,11 +1,9 @@
-import { ToastContainer } from 'react-toastify'
 import { useProjetoAtual } from '@/hooks/useProjetoAtual'
 import { useManipularFormulario } from '@/hooks/useManipularFormulario'
 import { CampoWrapper, Form, Input, InputCor, InputDescricao } from './styled'
 import TituloSidebar from '@/components/TituloSidebar'
 import ListaLinguagens from '@/components/ListaLinguagens'
 import Botao from '@/components/Botao'
-import 'react-toastify/dist/ReactToastify.css'
 
 const Formulario = () => {
     const { projetoAtual } = useProjetoAtual()
@@ -46,7 +44,6 @@ const Formulario = () => {
                 />
             </CampoWrapper>
             <Botao type="submit">Salvar projeto</Botao>
-            <ToastContainer />
         </Form>
     )
 }
