@@ -5,6 +5,7 @@ import { SecaoEditor } from './styled'
 import CampoCodigo from '@/components/CampoCodigo'
 import BotaoVisualizar from './BotaoVisualizar'
 import Formulario from './Formulario'
+import ExportarImagem from './ExportarImagem'
 import 'react-toastify/dist/ReactToastify.css'
 
 const EditorDeCodigo = () => {
@@ -21,6 +22,7 @@ const EditorDeCodigo = () => {
             />
             <BotaoVisualizar aplicarHighlight={aplicarHighlight} />
             <Formulario />
+            <ExportarImagem />
             <ToastContainer />
         </SecaoEditor>
     )
