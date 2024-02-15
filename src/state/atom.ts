@@ -7,6 +7,11 @@ export const projetoAtualState = atom<IProjeto>({
     default: getProjetoDefault(),
 })
 
+export const projetoNodeState = atom<React.MutableRefObject<HTMLDivElement | null> | null>({
+    key: 'projetoNodeState',
+    default: null,
+})
+
 export const menuAbertoState = atom<boolean>({
     key: 'menuAbertoState',
     default: false,
