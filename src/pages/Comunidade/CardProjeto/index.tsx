@@ -28,7 +28,7 @@ const CardProjeto = ({ projeto }: CardProjetoProps) => {
                     modo="visualizar"
                     codigo={projeto.codigo}
                     personalizacao={projeto.personalizacao}
-                    referencia={codigoRef}
+                    codigoRef={codigoRef}
                 />
             </Link>
             <Conteudo>
