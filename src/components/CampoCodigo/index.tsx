@@ -1,5 +1,4 @@
 import { useManipularFormulario } from '@/hooks/useManipularFormulario'
-import { useCodigoEmImagem } from '@/hooks/useCodigoEmImagem'
 import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
 import { CaixaDeTexto, CorDeFundo, Editor } from './styled'
 
@@ -7,12 +6,12 @@ interface CampoCodigoProps {
     modo: 'editar' | 'visualizar'
     codigo?: string
     personalizacao: IPersonalizarEditor
-    referencia?: React.RefObject<HTMLElement>
+    codigoRef?: React.RefObject<HTMLElement>
+    projetoRef?: React.RefObject<HTMLDivElement>
 }
 
-const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoProps) => {
+const CampoCodigo = ({ modo, codigo, personalizacao, codigoRef, projetoRef }: CampoCodigoProps) => {
     const { handleDadosChange } = useManipularFormulario()
-    const { projetoRef } = useCodigoEmImagem()
 
     return (
         <CorDeFundo
@@ -25,7 +24,7 @@ const CampoCodigo = ({ modo, codigo, personalizacao, referencia }: CampoCodigoPr
                     $modo={modo}
                     aria-label="Editor de código"
                     className={personalizacao.linguagem}
-                    ref={referencia}
+                    ref={codigoRef}
                     contentEditable={modo === 'editar'}
                     onBlur={evento =>
                         handleDadosChange('codigo', evento.target.innerText)
