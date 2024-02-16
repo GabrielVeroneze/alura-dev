@@ -2,8 +2,7 @@ import styled from 'styled-components'
 
 export const ExportarWrapper = styled.div`
     align-items: center;
-    background-color: ${({ theme }) => theme.cores.fundo.primaria};
-    border: 1px solid #ffffff;
+    background-color: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.baixa};
     border-radius: 0.5rem;
     display: flex;
     grid-area: exportar;
@@ -12,10 +11,21 @@ export const ExportarWrapper = styled.div`
 `
 
 export const BotaoConverter = styled.button`
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid ${({ theme }) => theme.cores.fundo.primaria};
     color: ${({ theme }) => theme.cores.texto.primaria};
     flex-grow: 1;
     padding: 1rem;
+    text-wrap: nowrap;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+
+    &:hover {
+        background-color: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.moderada};
+    }
+
+    &:active {
+        background-color: ${({ theme }) => theme.cores.primaria + theme.cores.transparencia.consideravel};
+    }
 `
 
 export const FormatosImagens = styled.select`
@@ -25,8 +35,9 @@ export const FormatosImagens = styled.select`
     cursor: pointer;
     font-family: inherit;
     height: 56px;
-    outline: none;
     margin: 0 0.5rem;
+    outline: none;
+    text-transform: uppercase;
 `
 
 export const Formato = styled.option`
