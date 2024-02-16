@@ -6,6 +6,7 @@ export const ExportarWrapper = styled.div`
     border: 1px solid #ffffff;
     border-radius: 0.5rem;
     display: flex;
+    grid-area: exportar;
     height: 56px;
     width: 100%;
 `
