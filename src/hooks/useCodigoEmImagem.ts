@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react'
 import { useRecoilState } from 'recoil'
+import { saveAs } from 'file-saver'
 import { projetoNodeState } from '@/state/atom'
+import { exibirMensagem } from '@/utils/mensagemAlerta'
 import DomToImage from 'dom-to-image'
 
 export const useCodigoEmImagem = () => {
@@ -14,6 +16,37 @@ export const useCodigoEmImagem = () => {
     }, [setProjetoNode])
 
     const converterCodigo = (formato: string) => {
+        if (projetoNode) {
+            switch (formato) {
+                case 'png':
+                    DomToImage.toPng(projetoNode)
+                        .then(dataUrl => {
+                            console.log(dataUrl)
+                        })
+                        .catch(() => {
+                            exibirMensagem('Erro ao transformar em imagem.', 'error')
+                        })
+                    break
+                case 'jpg':
+                    DomToImage.toJpeg(projetoNode)
+                        .then(dataUrl => {
+                            console.log(dataUrl)
+                        })
+                        .catch(() => {
+                            exibirMensagem('Erro ao transformar em imagem.', 'error')
+                        })
+                    break
+                case 'svg':
+                    DomToImage.toSvg(projetoNode)
+                        .then(dataUrl => {
+                            console.log(dataUrl)
+                        })
+                        .catch(() => {
+                            exibirMensagem('Erro ao transformar em imagem.', 'error')
+                        })
+                    break
+            }
+        }
     }
 
     return {
