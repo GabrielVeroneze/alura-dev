@@ -5,11 +5,11 @@ import DomToImage from 'dom-to-image'
 
 export const useCodigoEmImagem = () => {
     const [projetoNode, setProjetoNode] = useRecoilState(projetoNodeState)
-    const projetoRef = useRef(null)
+    const projetoRef = useRef<HTMLDivElement | null>(null)
 
     useEffect(() => {
         if (projetoRef.current) {
-            setProjetoNode(projetoRef)
+            setProjetoNode(projetoRef.current)
         }
     }, [setProjetoNode])
 

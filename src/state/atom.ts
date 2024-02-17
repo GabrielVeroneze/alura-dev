@@ -7,7 +7,7 @@ export const projetoAtualState = atom<IProjeto>({
     default: getProjetoDefault(),
 })
 
-export const projetoNodeState = atom<React.MutableRefObject<HTMLDivElement | null> | null>({
+export const projetoNodeState = atom<HTMLDivElement | null>({
     key: 'projetoNodeState',
     default: null,
 })
