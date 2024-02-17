@@ -21,7 +21,7 @@ export const useCodigoEmImagem = () => {
                 case 'png':
                     DomToImage.toPng(projetoNode)
                         .then(dataUrl => {
-                            console.log(dataUrl)
+                            saveAs(dataUrl, 'projeto.png')
                         })
                         .catch(() => {
                             exibirMensagem('Erro ao transformar em imagem.', 'error')
@@ -30,7 +30,7 @@ export const useCodigoEmImagem = () => {
                 case 'jpg':
                     DomToImage.toJpeg(projetoNode)
                         .then(dataUrl => {
-                            console.log(dataUrl)
+                            saveAs(dataUrl, 'projeto.jpg')
                         })
                         .catch(() => {
                             exibirMensagem('Erro ao transformar em imagem.', 'error')
@@ -39,7 +39,7 @@ export const useCodigoEmImagem = () => {
                 case 'svg':
                     DomToImage.toSvg(projetoNode)
                         .then(dataUrl => {
-                            console.log(dataUrl)
+                            saveAs(dataUrl, 'projeto.svg')
                         })
                         .catch(() => {
                             exibirMensagem('Erro ao transformar em imagem.', 'error')
