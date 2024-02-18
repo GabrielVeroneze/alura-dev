@@ -1,12 +1,13 @@
 import { Titulo } from './styled'
 
 interface TituloSidebarProps {
+    className?: string
     children: string
 }
 
-const TituloSidebar = ({ children }: TituloSidebarProps) => {
+const TituloSidebar = ({ className, children }: TituloSidebarProps) => {
     return (
-        <Titulo>{children}</Titulo>
+        <Titulo className={className}>{children}</Titulo>
     )
 }
 
