@@ -1,32 +1,25 @@
-import { useEffect } from 'react'
 import { useMenuAberto } from '@/hooks/useMenuAberto'
-import { MenuSidebar, WrapperPerfil, WrapperTitulo } from './styled'
-import TituloSidebar from '@/components/TituloSidebar'
+import { MenuAbsoluto, MenuSidebar, TituloMenu } from './styled'
 import Navegacao from '@/components/Navegacao'
 import Perfil from '@/components/Perfil'
 
 const Menu = () => {
-    const { menuAberto, setMenuAberto } = useMenuAberto()
-
-    useEffect(() => {
-        if (window.innerWidth >= 1440) {
-            setMenuAberto(true)
-        }
-    }, [setMenuAberto])
+    const { menuAberto } = useMenuAberto()
 
     return (
-        menuAberto && (
-            <MenuSidebar>
-                <WrapperTitulo>
-                    <TituloSidebar>Menu</TituloSidebar>
-                </WrapperTitulo>
-                <Navegacao />
-                <hr />
-                <WrapperPerfil>
+        <>
+            {menuAberto && (
+                <MenuAbsoluto>
+                    <Navegacao />
+                    <hr />
                     <Perfil tamanho="medium" />
-                </WrapperPerfil>
+                </MenuAbsoluto>
+            )}
+            <MenuSidebar>
+                <TituloMenu>Menu</TituloMenu>
+                <Navegacao />
             </MenuSidebar>
-        )
+        </>
     )
 }
 
