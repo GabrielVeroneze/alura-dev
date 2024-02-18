@@ -1,16 +1,9 @@
 import { device } from '@/styles/Breakpoints'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
+import TituloSidebar from '@/components/TituloSidebar'
 
-export const MenuSidebar = styled.aside`
-    ${() => MenuAbsoluto}
-
-    @media ${device.xl} {
-        ${() => MenuEstatico}
-    }
-`
-
-export const MenuAbsoluto = css`
-    background-color: #2D415B;
+export const MenuAbsoluto = styled.aside`
+    background-color: #2d415b;
     border-radius: 0.5rem;
     height: 571px;
     padding: 1.5rem;
@@ -30,29 +23,20 @@ export const MenuAbsoluto = css`
         right: 32px;
         top: 112px;
     }
-`
 
-export const MenuEstatico = css`
-    background-color: transparent;
-    padding: 0;
-    position: static;
-
-    hr {
-        display: none;
-    }
-`
-
-export const WrapperPerfil = styled.div`
     @media ${device.xl} {
         display: none;
     }
 `
 
-export const WrapperTitulo = styled.div`
+export const MenuSidebar = styled.aside`
     display: none;
 
     @media ${device.xl} {
         display: block;
-        margin-bottom: 1rem;
     }
+`
+
+export const TituloMenu = styled(TituloSidebar)`
+    margin-bottom: 1rem;
 `
