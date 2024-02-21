@@ -14,13 +14,17 @@
 
 ## :building_construction: Páginas e Componentes
 
-### Presente em Todas Páginas
+### Layout das Páginas
+
+Consiste em um layout que inclui os componentes e elementos que são encontrados em todas as páginas da plataforma.
 
 -   `Cabeçalho`: Possui a logotipo da plataforma, uma barra de pesquisa para procurar projetos ou perfis, e a imagem do perfil do usuário com o nome.
 
 -   `Menu de Navegação`: Contém os links para cada uma das páginas principais da plataforma. Localizado na barra lateral esquerda.
 
 ### Página do Editor de Código
+
+É o local principal da plataforma, onde os usuários podem criar e editar projetos de forma dinâmica e interativa.
 
 -   `Campo de Inserção de Código`: Permite aos usuários escrever e editar o código do projeto.
 
@@ -31,6 +35,8 @@
 -   `Botão para Exportar Código`: Possibilita salvar o código como uma imagem para compartilhamento ou uso posterior.
 
 ### Página de Comunidade
+
+Nela é exibido uma lista de cards dos projetos criados pelos usuários, permitindo aos usuários explorar e interagir com os projetos.
 
 -   `Cards dos Projetos`: Representa visualmente cada projeto salvo na página de comunidade. Cada card é composto por:
 
