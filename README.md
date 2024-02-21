@@ -29,3 +29,21 @@
 -   `Formulário de Cadastro de Projeto`: Inclui campos para inserção do título, descrição e personalizações do projeto.
 
 -   `Botão para Exportar Código`: Possibilita salvar o código como uma imagem para compartilhamento ou uso posterior.
+
+### Página de Comunidade
+
+-   `Cards dos Projetos`: Representa visualmente cada projeto salvo na página de comunidade. Cada card é composto por:
+
+    -   `Miniatura do Código`: Uma visualização em miniatura do código, com o Syntax Highlight aplicado.
+
+    -   `Título do Projeto`: O título descritivo que identifica o projeto de forma clara.
+
+    -   `Descrição do Projeto`: A descrição que fornece informações adicionais sobre o conteúdo do projeto.
+
+    -   `Personalizações`: Inclui as personalizações feitas, como a cor de fundo do editor e a linguagem de programação utilizada.
+
+    -   `Contador de Comentários`: Indica o número de comentários feitos pelos usuários sobre o projeto.
+
+    -   `Contador de Curtidas`: Exibe a quantidade de curtidas recebidos pelo projeto.
+
+    -   `Autor do Projeto`: Identifica o usuário responsável pela criação do projeto.
