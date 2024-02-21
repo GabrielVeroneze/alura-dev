@@ -16,7 +16,7 @@
 
 ### Presente em Todas Páginas
 
--   `Barra de Pesquisa`: Permite aos usuários realizar buscas por projetos ou perfis na plataforma. Localizada no cabeçalho da aplicação.
+-   `Cabeçalho`: Possui a logotipo da plataforma, uma barra de pesquisa para procurar projetos ou perfis, e a imagem do perfil do usuário com o nome.
 
 -   `Menu de Navegação`: Contém os links para cada uma das páginas principais da plataforma. Localizado na barra lateral esquerda.
 
