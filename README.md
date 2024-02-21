@@ -20,3 +20,12 @@
 
 -   `Menu de Navegação`: Contém os links para cada uma das páginas principais da plataforma. Localizado na barra lateral esquerda.
 
+### Página do Editor de Código
+
+-   `Campo de Inserção de Código`: Permite aos usuários escrever e editar o código do projeto.
+
+-   `Botão para Aplicar o Highlight`: Aplica o Syntax Highlight ao código, posicionado abaixo do campo de código.
+
+-   `Formulário de Cadastro de Projeto`: Inclui campos para inserção do título, descrição e personalizações do projeto.
+
+-   `Botão para Exportar Código`: Possibilita salvar o código como uma imagem para compartilhamento ou uso posterior.
