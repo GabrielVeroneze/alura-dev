@@ -67,4 +67,6 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Editar Projeto`: Ao clicar no card de um projeto na página da Comunidade, o usuário é redirecionado para a página do editor de código, permitindo a edição do projeto.
 
+-   `Exportação de Código`: Disponibiliza ao usuário a exportação do código em formatos de imagem (PNG, SVG ou JPG).
+
 -   `Gerenciamento de Informações do Projeto`: Oferece campos interativos para inserção e edição do título e descrição do projeto.
