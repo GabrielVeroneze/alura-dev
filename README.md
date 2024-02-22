@@ -69,4 +69,6 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Exportação de Código`: Disponibiliza ao usuário a exportação do código em formatos de imagem (PNG, SVG ou JPG).
 
+-   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas, como sucesso ou erro ao salvar ou editar o projeto, e ao converter o código em imagem.
+
 -   `Gerenciamento de Informações do Projeto`: Oferece campos interativos para inserção e edição do título e descrição do projeto.
