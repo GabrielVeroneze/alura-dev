@@ -63,3 +63,8 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
 
+-   `Salvar Projeto`: Permite aos usuários salvar o projeto atual, tornando-o disponível na página da Comunidade para visualização e interação.
+
+-   `Editar Projeto`: Ao clicar no card de um projeto na página da Comunidade, o usuário é redirecionado para a página do editor de código, permitindo a edição do projeto.
+
+-   `Gerenciamento de Informações do Projeto`: Oferece campos interativos para inserção e edição do título e descrição do projeto.
