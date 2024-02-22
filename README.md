@@ -65,7 +65,8 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Salvar Projeto`: Permite aos usuários salvar o projeto atual, tornando-o disponível na página da Comunidade para visualização e interação.
 
--   `Editar Projeto`: Ao clicar no card de um projeto na página da Comunidade, o usuário é redirecionado para a página do editor de código, permitindo a edição do projeto.
+-   `Editar Projeto`: O usuário pode navegar pela página da Comunidade e clicar no card do projeto que deseja editar. Ao fazer isso, será redirecionado para o editor de código, onde poderá efetuar alterações no projeto.
+
 
 -   `Exportação de Código`: Disponibiliza ao usuário a exportação do código em formatos de imagem (PNG, SVG ou JPG).
 
