@@ -55,15 +55,18 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
     -   `Contador de Curtidas`: Exibe a quantidade de curtidas recebidos pelo projeto.
 
     -   `Autor do Projeto`: Identifica o usuário responsável pela criação do projeto.
+
 ## :rocket: Funcionalidades e Recursos
 
-
--   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
 -   `Navegação`: Fornece links para as principais páginas da plataforma, como a página do Editor de Código e a página da Comunidade.
 
 -   `Edição de Código`: Espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
+
+-   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
+
+-   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
 
 -   `Salvar Projeto`: Permite aos usuários salvar um projeto, tornando ele disponível na página da Comunidade para visualização e interação.
 
@@ -72,5 +75,3 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 -   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
-
--   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
