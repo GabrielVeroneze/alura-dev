@@ -58,7 +58,11 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 ## :rocket: Funcionalidades e Recursos
 
+### Navegação e Acesso
+
 -   `Navegação`: Fornece links para as principais páginas da plataforma, como a página do Editor de Código e a página da Comunidade.
+
+### Editor de Código
 
 -   `Edição de Código`: Espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
 
@@ -66,11 +70,15 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
 
+### Gerenciamento de Projetos
+
 -   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
 
 -   `Salvar Projeto`: Permite aos usuários salvar um projeto, tornando ele disponível na página da Comunidade para visualização e interação.
 
 -   `Editar Projeto`: O usuário pode navegar pela página da Comunidade e clicar no card do projeto que deseja editar. Ao fazer isso, será redirecionado para o editor de código, onde poderá efetuar alterações no projeto.
+
+### Exportação e Feedback
 
 -   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
