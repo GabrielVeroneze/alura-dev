@@ -6,6 +6,11 @@
 -   [Páginas e Componentes](#building_construction-páginas-e-componentes)
     -   [Página do Editor de Código](#página-do-editor-de-código)
     -   [Página de Comunidade](#página-de-comunidade)
+-   [Funcionalidades e Recursos](#rocket-funcionalidades-e-recursos)
+    -   [Navegação e Acesso](#navegação-e-acesso)
+    -   [Editor de Código](#editor-de-código)
+    -   [Gerenciamento de Projetos](#gerenciamento-de-projetos)
+    -   [Exportação e Feedback](#exportação-e-feedback)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/alura-dev/blob/85fab08bb86536479b6cf65c5cbafb38c986bfa5/src/assets/images/logotipo.svg"></h1>
 <p align="center">O Alura Dev é um editor de texto online que simplifica a postagem e visualização de trechos de código em várias linguagens de programação.</p>
