@@ -73,5 +73,4 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
 
-
--   `Gerenciamento de Informações do Projeto`: Oferece campos interativos para inserção e edição do título e descrição do projeto.
+-   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
