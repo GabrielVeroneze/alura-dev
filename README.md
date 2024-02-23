@@ -57,9 +57,9 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
     -   `Autor do Projeto`: Identifica o usuário responsável pela criação do projeto.
 ## :rocket: Funcionalidades e Recursos
 
--   `Navegação`: Direciona os usuários para diferentes partes da plataforma Alura Dev.
 
 -   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
+-   `Navegação`: Fornece links para as principais páginas da plataforma, como a página do Editor de Código e a página da Comunidade.
 
 -   `Edição de Código`: Espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
 
