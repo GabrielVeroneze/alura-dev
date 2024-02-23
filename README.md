@@ -67,8 +67,8 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Editar Projeto`: O usuário pode navegar pela página da Comunidade e clicar no card do projeto que deseja editar. Ao fazer isso, será redirecionado para o editor de código, onde poderá efetuar alterações no projeto.
 
+-   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
--   `Exportação de Código`: Disponibiliza ao usuário a exportação do código em formatos de imagem (PNG, SVG ou JPG).
 
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas, como sucesso ou erro ao salvar ou editar o projeto, e ao converter o código em imagem.
 
