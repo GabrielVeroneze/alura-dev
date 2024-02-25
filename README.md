@@ -110,6 +110,12 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Axios`: Utilizado para realizar requisições HTTP para a API de mock que fornece os dados dos projetos.
 
+### Hooks Customizados
+
+-   `useManipularProjetos`: Hook customizado utilizado para encapsular a lógica de manipulação de projetos na aplicação. Esse hook é responsável por carregar, cadastrar e editar projetos por meio de requisições HTTP.
+
+-   `useExibirMensagem`: Outro hook customizado utilizado para facilitar o envio de mensagens de alerta para o usuário. Esse hook encapsula a lógica de exibição de mensagens utilizando a biblioteca React Toastify.
+
 ### Simulação de API com json-server
 
 -   `json-server`: Ferramenta utilizada para simular uma API REST durante o desenvolvimento da aplicação.
