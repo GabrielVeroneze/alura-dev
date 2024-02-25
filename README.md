@@ -98,7 +98,13 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Styled Components`: Adotado para estilizar os componentes React de forma modular e dinâmica.
 
--   `Themes`: Utilizado em conjunto com o Styled Components para fornecer um tema global para a aplicação.
+-   `Tema Personalizado`: Implementa um tema personalizado para centralizar as definições de cores, tipografia e outras propriedades de estilo utilizadas em toda a aplicação.
+
+-   `Estilização Dinâmica com Props`: Estiliza os componentes de forma dinâmica com base em props para criar componentes versáteis e reutilizáveis.
+
+-   `Extensão de Estilos`: Utiliza a extensão de estilos para criar variações de componentes existentes sem a necessidade de duplicar código.
+
+-   `Estilos Globais`: Também utiliza o Styled Components para definir estilos globais que se aplicam a toda a aplicação.
 
 ### Rotas com React Router
 
