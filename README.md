@@ -124,6 +124,14 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Axios`: Utilizado para realizar requisições HTTP para a API de mock que fornece os dados dos projetos.
 
+-   `Recebimento de Dados`: Utiliza o método GET para receber dados do servidor em resposta à requisição.
+
+-   `Envio de Dados`: Utiliza o método POST para enviar dados para o servidor em requisições de criação de recursos.
+
+-   `Atualização de Dados`: Utiliza o método PUT para atualizar dados existentes na API, enviando dados modificados ou atualizados para o servidor.
+
+-   `Configuração de Headers`: Configura cabeçalhos personalizados nas requisições Axios para fornecer informações adicionais ao servidor.
+
 ### Hooks Customizados
 
 -   `useManipularProjetos`: Encapsula a lógica de manipulação de projetos, incluindo carregamento, cadastro e edição via requisições HTTP.
