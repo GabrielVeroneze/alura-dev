@@ -88,3 +88,9 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 -   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
+## :toolbox: Desenvolvimento e Implementação
+
+### Estado Global com Recoil
+
+-   `Recoil`: Utilizado para gerenciar o estado global da aplicação.
+
