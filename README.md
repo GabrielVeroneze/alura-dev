@@ -94,3 +94,9 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Recoil`: Utilizado para gerenciar o estado global da aplicação.
 
+### Estilização com Styled Components
+
+-   `Styled Components`: Adotado para estilizar os componentes React de forma modular e dinâmica.
+
+-   `Themes`: Utilizado em conjunto com o Styled Components para fornecer um tema global para a aplicação.
+
