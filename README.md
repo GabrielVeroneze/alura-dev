@@ -112,9 +112,19 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 ### Hooks Customizados
 
--   `useManipularProjetos`: Hook customizado utilizado para encapsular a lógica de manipulação de projetos na aplicação. Esse hook é responsável por carregar, cadastrar e editar projetos por meio de requisições HTTP.
+-   `useManipularProjetos`: Encapsula a lógica de manipulação de projetos, incluindo carregamento, cadastro e edição via requisições HTTP.
 
--   `useExibirMensagem`: Outro hook customizado utilizado para facilitar o envio de mensagens de alerta para o usuário. Esse hook encapsula a lógica de exibição de mensagens utilizando a biblioteca React Toastify.
+-   `useManipularFormulario`: Responsável por gerenciar o estado de formulários, facilitando manipulação, validação e envio.
+
+-   `useProjetoAtual`: Mantém o estado do projeto selecionado, permitindo acesso e exibição de informações relevantes.
+
+-   `useAplicarHighlight`: Responsável por aplicar destaque de sintaxe no código do editor.
+
+-   `useCodigoEmImagem`: É utilizado para converter o código em uma imagem, possibilitando o compartilhamento do código.
+
+-   `useCurtirProjeto`: Gerencia a funcionalidade de curtir projetos, atualizando o estado do projeto e contagem de curtidas.
+
+-   `useMenuAberto`: Controla o estado de abertura e fechamento do menu na interface da aplicação.
 
 ### Simulação de API com json-server
 
