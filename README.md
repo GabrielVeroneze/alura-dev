@@ -106,3 +106,11 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Componente NavLink`: Utilizado para criar links de navegação estilizados que podem aplicar estilos especiais quando a rota correspondente estiver ativa.
 
+### Consumo de API com Axios
+
+-   `Axios`: Utilizado para realizar requisições HTTP para a API de mock que fornece os dados dos projetos.
+
+### Simulação de API com json-server
+
+-   `json-server`: Ferramenta utilizada para simular uma API REST durante o desenvolvimento da aplicação.
+
