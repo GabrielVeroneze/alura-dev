@@ -110,7 +110,15 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `React Router`: Adotado para gerenciar a navegação entre diferentes páginas da aplicação.
 
--   `Componente NavLink`: Utilizado para criar links de navegação estilizados que podem aplicar estilos especiais quando a rota correspondente estiver ativa.
+-   `Componentes de Rota`: Utiliza o componente `<Route>` do React Router para definir as rotas da aplicação.
+
+-   `Rotas Aninhadas`: Utiliza rotas aninhadas para para criar layouts reutilizáveis, compostos por vários componentes de rota aninhados.
+
+-   `Links de Navegação`: Utiliza o componente `<Link>` do React Router para criar links de navegação entre diferentes partes da aplicação.
+
+-   `Estilos Ativos`: Utiliza o componente `<NavLink>` para aplicar estilos especiais aos links de navegação quando a rota correspondente estiver ativa.
+
+-   `Parâmetros de Rota`: Aproveita os parâmetros de rota do React Router para criar páginas com conteúdo personalizado, baseado nos parâmetros fornecidos na URL.
 
 ### Consumo de API com Axios
 
