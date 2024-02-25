@@ -120,3 +120,10 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `json-server`: Ferramenta utilizada para simular uma API REST durante o desenvolvimento da aplicação.
 
+### Destaque de Sintaxe com Highlight.js
+
+-   `Highlight.js`: Utilizado para aplicar destaque de sintaxe no código do editor de código.
+
+### Salvamento de Arquivos com File Saver
+
+-   `File Saver`: Adotado para permitir que os usuários salvem arquivos de imagens gerados ao exportar o código em imagem.
