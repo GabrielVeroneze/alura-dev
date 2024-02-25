@@ -100,3 +100,9 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Themes`: Utilizado em conjunto com o Styled Components para fornecer um tema global para a aplicação.
 
+### Rotas com React Router
+
+-   `React Router`: Adotado para gerenciar a navegação entre diferentes páginas da aplicação.
+
+-   `Componente NavLink`: Utilizado para criar links de navegação estilizados que podem aplicar estilos especiais quando a rota correspondente estiver ativa.
+
