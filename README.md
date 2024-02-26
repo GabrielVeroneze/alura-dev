@@ -162,6 +162,16 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `useMenuAberto`: Controla o estado de abertura e fechamento do menu na interface da aplicação.
 
+### Técnicas de Estilo e Layout CSS
+
+-   `Flexbox`: Emprega o modelo de layout flexbox para criar layouts flexíveis e responsivos na aplicação.
+
+-   `Grid Layout`: Utiliza o sistema de layout grid para criar layouts avançados na aplicação.
+
+-   `Media Queries`: Implementa media queries para tornar a aplicação responsiva, ajustando o layout e o estilo em dispositivos móveis, tablets e desktops.
+
+-   `Pseudoclasses e Pseudoelementos`: Utiliza pseudoclasses e pseudoelementos CSS para aplicar estilos a elementos.
+
 ### Simulação de API com json-server
 
 -   `json-server`: Ferramenta utilizada para simular uma API REST durante o desenvolvimento da aplicação.
