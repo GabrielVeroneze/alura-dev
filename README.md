@@ -90,6 +90,20 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
 ## :toolbox: Desenvolvimento e Implementação
 
+### Desenvolvimento com React
+
+-   `Componentes Funcionais`: Utiliza componentes funcionais como a base da estrutura da aplicação.
+
+-   `Hooks`: Aproveita os hooks do React, como `useState`, `useEffect`, `useRef`, entre outros, para adicionar funcionalidades.
+
+-   `Props`: Utiliza props para passar dados de um componente pai para um componente filho, sem passar para componentes profundos na hierarquia.
+
+-   `Renderização Condicional`: Utiliza renderização condicional para controlar qual parte da interface é exibida com base em condições.
+
+-   `Renderização de Listas`: Utiliza renderização de listas para exibir conjuntos de dados dinâmicos, como itens de uma lista.
+
+-   `Eventos`: Utiliza eventos do React para lidar com interações do usuário, como cliques, digitação e foco.
+
 ### Estado Global com Recoil
 
 -   `Recoil`: Utilizado para gerenciar o estado global da aplicação.
