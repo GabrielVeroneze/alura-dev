@@ -180,6 +180,18 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Highlight.js`: Utilizado para aplicar destaque de sintaxe no código do editor de código.
 
+### Conversão de DOM para Imagem com Dom-to-Image
+
+-   `Dom-to-Image`: Adotado para converter elementos DOM em imagens estáticas.
+
 ### Salvamento de Arquivos com File Saver
 
 -   `File Saver`: Adotado para permitir que os usuários salvem arquivos de imagens gerados ao exportar o código em imagem.
+
+### Layout Masonry com React Responsive Masonry
+
+-   `React Responsive Masonry`: Utilizado para criar layouts em estilo masonry responsivos e dinâmicos.
+
+### Mensagens de Alerta com React Toastify
+
+-   `React Toastify`: Utilizado para exibir mensagens de alerta e notificação para o usuário de forma elegante e responsiva.
