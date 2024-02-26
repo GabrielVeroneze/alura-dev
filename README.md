@@ -11,6 +11,20 @@
     -   [Editor de Código](#editor-de-código)
     -   [Gerenciamento de Projetos](#gerenciamento-de-projetos)
     -   [Exportação e Feedback](#exportação-e-feedback)
+-   [Desenvolvimento e Implementação](#toolbox-desenvolvimento-e-implementação)
+    -   [Desenvolvimento com React](#desenvolvimento-com-react)
+    -   [Estado Global com Recoil](#estado-global-com-recoil)
+    -   [Estilização com Styled Components](#estilização-com-styled-components)
+    -   [Rotas com React Router](#rotas-com-react-router)
+    -   [Consumo de API com Axios](#consumo-de-api-com-axios)
+    -   [Hooks Customizados](#hooks-customizados)
+    -   [Técnicas de Estilo e Layout CSS](#técnicas-de-estilo-e-layout-css)
+    -   [Simulação de API com json-server](#simulação-de-api-com-json-server)
+    -   [Destaque de Sintaxe com Highlight.js](#destaque-de-sintaxe-com-highlightjs)
+    -   [Conversão de DOM para Imagem com Dom-to-Image](#conversão-de-dom-para-imagem-com-dom-to-image)
+    -   [Salvamento de Arquivos com File Saver](#salvamento-de-arquivos-com-file-saver)
+    -   [Layout Masonry com React Responsive Masonry](#layout-masonry-com-react-responsive-masonry)
+    -   [Mensagens de Alerta com React Toastify](#mensagens-de-alerta-com-react-toastify)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/alura-dev/blob/85fab08bb86536479b6cf65c5cbafb38c986bfa5/src/assets/images/logotipo.svg"></h1>
 <p align="center">O Alura Dev é um editor de texto online que simplifica a postagem e visualização de trechos de código em várias linguagens de programação.</p>
