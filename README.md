@@ -209,3 +209,9 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 ### Mensagens de Alerta com React Toastify
 
 -   `React Toastify`: Utilizado para exibir mensagens de alerta e notificação para o usuário de forma elegante e responsiva.
+
+## :computer: Ferramentas utilizadas
+
+| React | TypeScript | Recoil | Styled Components | React Router | Axios | Vite |
+| ----- | ---------- | ------ | ----------------- | ------------ | ----- | ---- |
+<img height="65px" src=""> | <img height="65px" src=""> | <img height="70px" src=""> | <img height="50px" src=""> | <img height="70px" src=""> | <img height="65px" src=""> | <img height="65px" src="">
