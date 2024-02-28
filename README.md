@@ -1,3 +1,5 @@
+Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da Alura. Durante quatro semanas de desafios, os participantes tiveram a oportunidade de praticar e ampliar seus conhecimentos em desenvolvimento web, culminando na criação do Alura Dev, um editor de texto online intuitivo e funcional. Este README fornece informações sobre as funcionalidades, recursos e instruções para execução da aplicação.
+
 <hr>
 
 ## Índice
