@@ -258,3 +258,9 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
    npm run dev
    ```
    Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
+
+## :trophy: Sobre o Challenge
+Desafie-se e Expanda seu Portfólio
+
+O Challenge Front-End 1ª Edição oferece a oportunidade de praticar e aprimorar seus conhecimentos em desenvolvimento web, enquanto cria um novo projeto do início ao fim.
+
