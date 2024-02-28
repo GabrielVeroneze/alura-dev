@@ -268,3 +268,9 @@ O Challenge Front-End 1ª Edição oferece a oportunidade de praticar e aprimora
 
 O Challenge Front-End é uma abordagem baseada em desafios, onde os participantes se envolvem em um problema específico e buscam soluções por meio de cursos, conteúdos e interações. Após explorar o desafio proposto, os participantes aplicam seus conhecimentos para desenvolver e implementar um projeto prático.
 
+### História do Projeto
+
+Um produtor de conteúdo de programação solicitou a construção de um editor de texto online para compartilhar trechos de código. O editor precisa ser acessível, simples, bonito e funcional, permitindo ao produtor compartilhar a ferramenta com seus seguidores.
+
+As principais funcionalidades pedidas incluem um campo para selecionar a linguagem a ser escrita, um campo para escrever o código e um botão para visualizar o código com syntax highlight.
+
