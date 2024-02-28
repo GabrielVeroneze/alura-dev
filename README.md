@@ -29,6 +29,7 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da 
     -   [Mensagens de Alerta com React Toastify](#mensagens-de-alerta-com-react-toastify)
 -   [Ferramentas utilizadas](#computer-ferramentas-utilizadas)
 -   [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
+-   [Instruções](#clipboard-instruções)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/alura-dev/blob/85fab08bb86536479b6cf65c5cbafb38c986bfa5/src/assets/images/logotipo.svg"></h1>
 <p align="center">O Alura Dev é um editor de texto online que simplifica a postagem e visualização de trechos de código em várias linguagens de programação.</p>
