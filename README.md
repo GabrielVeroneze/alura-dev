@@ -298,3 +298,10 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 -   Melhoria na responsividade da aplicação para diferentes dispositivos e implementação de micro interações em outras páginas.
 
+#### Semanas 3 & 4
+
+-   Utilização de frameworks SPA para montar o editor de código e integração com a API para gerenciar os projetos.
+
+-   Implementação da função de salvar o projeto e exportação do código em PNG, SVG ou JPG.
+
+-   Documentação do projeto e realização do deploy da aplicação.
