@@ -226,43 +226,54 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/6696dd4c-ff05-4e4d-800f-e34cc72baf6a"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/4fece894-e9e0-4334-aa4d-fdc827a42f94"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bd4e69b0-608d-4676-89ef-3ea1e9c73a24"> | <img height="85px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/607ff27f-a108-4a23-929e-8fc0f0c6a8fc"> | <img height="55px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bad822e7-d3aa-4a79-855d-ed46e163a7e5"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/3615e690-9dbf-4305-8454-1a0e4fe55a18"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/c0aee16b-710d-4a5b-b641-be2eb07607ad">
 
 ## :open_file_folder: Acesso ao projeto
-Você pode baixar o projeto diretamente:  
+
+Você pode baixar o projeto diretamente:
 
 [Baixar código fonte](https://github.com/GabrielVeroneze/alura-dev/archive/refs/heads/main.zip)
 
 Também é possível clonar o repositório usando o seguinte comando:
+
 ```
 git clone https://github.com/GabrielVeroneze/alura-dev.git
 ```
 
 ## :clipboard: Instruções
+
 Para usar este projeto em seu computador localmente, você precisará seguir estas etapas:
 
 1. Certifique-se de que o Node.js está instalado em seu computador. Caso não esteja, realize o download e a instalação a partir do site oficial:
 
-   https://nodejs.org/
+    https://nodejs.org/
 
 2. Abra o terminal e navegue até a pasta raiz do projeto utilizando o comando `cd`. Por exemplo:
-   ```
-   cd alura-dev
-   ```
+
+    ```
+    cd alura-dev
+    ```
+
 3. Antes de iniciar a aplicação, é necessário instalar as dependências necessárias. Execute o seguinte comando no terminal:
-   ```
-   npm install
-   ```
-   Este comando instalará todas as dependências listadas no arquivo `package.json`.
+
+    ```
+    npm install
+    ```
+
+    Este comando instalará todas as dependências listadas no arquivo `package.json`.
 
 4. Após a instalação das dependências, inicie o servidor JSON Server para disponibilizar os dados da API. Utilize o seguinte comando:
-   ```
-   npx json-server db.json
-   ```
-   Isso iniciará o JSON Server na porta 3000 usando o arquivo `db.json` como banco de dados.
+
+    ```
+    npx json-server db.json
+    ```
+
+    Isso iniciará o JSON Server na porta 3000 usando o arquivo `db.json` como banco de dados.
 
 5. Após a inicialização do JSON Server, inicie o servidor de desenvolvimento executando o seguinte comando:
-   ```
-   npm run dev
-   ```
-   Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
+
+    ```
+    npm run dev
+    ```
+
+    Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
 
 ## :trophy: Sobre o Challenge
 
