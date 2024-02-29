@@ -288,3 +288,13 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 -   Desenvolvimento do botão para salvar o projeto e do campo de inserção do código, com integração do botão para adicionar syntax highlight.
 
+#### Semana 2
+
+-   Utilização de JavaScript para adicionar comportamento dinâmico ao sistema, incluindo micro interações na página do editor e validações de entrada nos formulários.
+
+-   Implementação da cor de fundo personalizável do editor e adição do syntax highlight ao código.
+
+-   Funcionalidade de links no menu de navegação e desenvolvimento da página de visualização de projetos com cards dos projetos salvos.
+
+-   Melhoria na responsividade da aplicação para diferentes dispositivos e implementação de micro interações em outras páginas.
+
