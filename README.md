@@ -280,3 +280,11 @@ Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma ab
 
 Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o foco e o esforço em diferentes áreas do projeto. Abaixo, estão listadas as principais tarefas de cada semana:
 
+#### Semana 1
+
+-   Implementação do layout básico da página do editor de código, incluindo elementos estáticos como logotipo, barra de pesquisa e menu de navegação.
+
+-   Criação do formulário de cadastro de projetos com campos para título, descrição, linguagem e cor de fundo do editor.
+
+-   Desenvolvimento do botão para salvar o projeto e do campo de inserção do código, com integração do botão para adicionar syntax highlight.
+
