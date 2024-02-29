@@ -30,6 +30,10 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da 
 -   [Ferramentas utilizadas](#computer-ferramentas-utilizadas)
 -   [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
 -   [Instruções](#clipboard-instruções)
+-   [Sobre o Challenge](#trophy-sobre-o-challenge)
+    -   [O que é um Challenge?](#o-que-é-um-challenge)
+    -   [História do Projeto](#história-do-projeto)
+    -   [Desenvolvimento Ágil com Trello](#desenvolvimento-ágil-com-trello)
 
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/alura-dev/blob/85fab08bb86536479b6cf65c5cbafb38c986bfa5/src/assets/images/logotipo.svg"></h1>
 <p align="center">O Alura Dev é um editor de texto online que simplifica a postagem e visualização de trechos de código em várias linguagens de programação.</p>
