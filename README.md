@@ -274,3 +274,9 @@ Um produtor de conteúdo de programação solicitou a construção de um editor 
 
 As principais funcionalidades pedidas incluem um campo para selecionar a linguagem a ser escrita, um campo para escrever o código e um botão para visualizar o código com syntax highlight.
 
+### Desenvolvimento Ágil com Trello
+
+Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma abordagem ágil, com o auxílio do Trello. Ele é utilizado para gerenciar as tarefas, desde o início até a conclusão do projeto.
+
+Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o foco e o esforço em diferentes áreas do projeto. Abaixo, estão listadas as principais tarefas de cada semana:
+
