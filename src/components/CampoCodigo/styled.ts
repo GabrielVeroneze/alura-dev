@@ -77,6 +77,6 @@ export const Editor = styled.code<{ $modo: string }>`
 
     @media ${device.xl} {
         font-size: ${({ $modo }) => $modo === 'editar' ? '0.875rem' : '0.6875rem'};
-        height: ${({ $modo }) => $modo === 'editar' ? '360px' : '195px'};
+        height: ${({ $modo }) => $modo === 'editar' ? '234px' : '195px'};
     }
 `
