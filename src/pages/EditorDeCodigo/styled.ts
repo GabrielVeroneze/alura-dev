@@ -17,7 +17,8 @@ export const SecaoEditor = styled.section`
         gap: 2rem 2.5rem;
         grid-template-areas:
             'editor formulario'
-            'botao exportar';
+            'botao formulario'
+            '. exportar';
         grid-template-columns: 1fr calc(312px - 2.5rem);
         grid-template-rows: max-content 1fr;
     }
