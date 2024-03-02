@@ -324,5 +324,7 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 ## :camera: Demonstração Visual
 
 `Página do Editor de Código`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/775b1c8b-359d-47a1-bd57-4d3ff5cf8c47)
 
 `Página de Comunidade`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/fb62ec42-e3c4-41b1-bde7-206acd61c89a)
