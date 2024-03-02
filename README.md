@@ -97,7 +97,7 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 ### Editor de Código
 
--   `Edição de Código`: Espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
+-   `Inserção de Código`: Proporciona espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
 
