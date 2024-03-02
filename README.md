@@ -320,3 +320,9 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 -   Implementação da função de salvar o projeto e exportação do código em PNG, SVG ou JPG.
 
 -   Documentação do projeto e realização do deploy da aplicação.
+
+## :camera: Demonstração Visual
+
+`Página do Editor de Código`
+
+`Página de Comunidade`
