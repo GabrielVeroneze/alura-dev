@@ -1,34 +1,106 @@
 {
-    "projetos": [
-        {
-            "id": 1,
-            "nome": "Projeto React Dashboard",
-            "descricao": "Um painel de controle React com gráficos e widgets interativos.",
-            "codigo": "import React, { useState, useEffect } from 'react';\n\nfunction Dashboard() {\n  // Lógica do painel de controle\n  return (\n    <div>\n      <h1>React Dashboard</h1>\n      {/* Componentes e gráficos aqui */}\n    </div>\n  );\n}\n\nexport default Dashboard;",
-            "personalizacao": {
-                "corFundo": "#2e4053",
-                "linguagem": "javascript"
-            }
-        },
-        {
-            "id": 2,
-            "nome": "Projeto Blog em Node.js",
-            "descricao": "Um blog simples construído usando Node.js, Express e MongoDB.",
-            "codigo": "const express = require('express');\nconst mongoose = require('mongoose');\n// Configurações e rotas do blog\nconst app = express();\nconst PORT = 3000;\napp.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));",
-            "personalizacao": {
-                "corFundo": "#3498db",
-                "linguagem": "javascript"
-            }
-        },
-        {
-            "id": 3,
-            "nome": "Projeto Python Flask API",
-            "descricao": "Uma API simples construída usando Flask e SQLAlchemy.",
-            "codigo": "from flask import Flask, jsonify, request\nfrom flask_sqlalchemy import SQLAlchemy\n# Configurações e rotas da API\napp = Flask(__name__)\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'\ndb = SQLAlchemy(app)",
-            "personalizacao": {
-                "corFundo": "#27ae60",
-                "linguagem": "python"
-            }
-        }
-    ]
+  "projetos": [
+    {
+      "id": "f9b646fc-381f-4942-b548-257e5ebef059",
+      "nome": "Botão Adaptável",
+      "descricao": "Um botão que adapta seu estilo baseado em props usando Styled Components.",
+      "codigo": "import styled from 'styled-components';\n\nconst Button = styled.button`\n  background-color: ${(props) => props.primary ? '#007bff' : '#6c757d'};\n  color: white;\n  font-size: 1em;\n  padding: 0.25em 1em;\n  border: 2px solid transparent;\n  border-radius: 3px;\n`;\n\nexport default Button;",
+      "personalizacao": {
+        "corFundo": "#4b8fd8",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    },
+    {
+      "id": "5dab1b0e-fcec-4f40-bc33-616229cb1e7d",
+      "nome": "Seletor Assíncrono",
+      "descricao": "Exemplo de um seletor assíncrono usando Recoil.",
+      "codigo": "import { selector, atom } from 'recoil';\n\nconst dataState = atom({\n  key: 'dataState',\n  default: [],\n});\n\nexport const fetchData = selector({\n  key: 'fetchData',\n  get: async ({ get }) => {\n    const response = await fetch('https://api.example.com/data');\n    const data = await response.json();\n    return data;\n  },\n});",
+      "personalizacao": {
+        "corFundo": "#e6c151",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    },
+    {
+      "id": "f22e31df-5d42-4dd6-8a87-3b3a7c3c6b35",
+      "nome": "Função Utilitária para Formatação de Datas",
+      "descricao": "Uma função utilitária para formatar datas no formato 'DD/MM/YYYY', útil para exibição em interfaces de usuário.",
+      "codigo": "function formatDate(date) {\n  const d = new Date(date);\n  const day = String(d.getDate()).padStart(2, '0');\n  const month = String(d.getMonth() + 1).padStart(2, '0');\n  const year = d.getFullYear();\n  return `${day}/${month}/${year}`;\n}\n\nexport default formatDate;",
+      "personalizacao": {
+        "corFundo": "#29a9bc",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    },
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "nome": "Criando instância no Axios",
+      "descricao": "Exemplo de como criar uma instância para configurar requisições HTTP",
+      "codigo": "import axios from 'axios';\n\nconst instance = axios.create({\n  baseURL: 'https://api.example.com',\n  timeout: 1000,\n  headers: { 'Authorization': 'Bearer YOUR_API_TOKEN' }\n});\n\nexport default instance;",
+      "personalizacao": {
+        "corFundo": "#db4857",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    },
+    {
+      "id": "1c94e9e7-1716-4691-8180-b2d209af5c23",
+      "nome": "Rotas com Layout",
+      "descricao": "Gerenciamento de rotas com layout usando React Router.",
+      "codigo": "import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';\n\nfunction App() {\n  return (\n    <Router>\n      <Routes>\n        <Route path=\"/\" element={<Layout />}> // Layout contém cabeçalho, rodapé, etc.\n          <Route index element={<EditorDeCodigo />} />\n          <Route path=\"comunidade\" element={<Comunidade />} />\n          <Route path=\"editar/:id\" element={<EditorDeCodigo />} />\n        </Route>\n      </Routes>\n    </Router>\n  );\n}",
+      "personalizacao": {
+        "corFundo": "#8298b0",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    },
+    {
+      "id": "8a33ff65-d5eb-4e64-ba0d-0432199d5e4c",
+      "nome": "Hook de Busca",
+      "descricao": "Hook customizado para realizar busca em uma lista de itens.",
+      "codigo": "import { useState } from 'react';\n\nfunction useSearch(initialItems) {\n  const [items, setItems] = useState(initialItems);\n  const [query, setQuery] = useState('');\n\n  const searchItems = () => {\n    return items.filter(item => item.toLowerCase().includes(query.toLowerCase()));\n  };\n\n  return { query, setQuery, searchItems };\n}\n\nexport default useSearch;",
+      "personalizacao": {
+        "corFundo": "#4ed084",
+        "linguagem": "javascript"
+      },
+      "curtidas": {
+        "quantidade": 0,
+        "curtido": false
+      },
+      "comentarios": {
+        "quantidade": 0
+      }
+    }
+  ]
 }
