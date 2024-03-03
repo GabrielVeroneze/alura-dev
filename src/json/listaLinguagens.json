@@ -48,7 +48,15 @@
         "valor": "ruby"
     },
     {
+        "nome": "SCSS",
+        "valor": "scss"
+    },
+    {
         "nome": "Swift",
         "valor": "swift"
+    },
+    {
+        "nome": "TypeScript",
+        "valor": "typescript"
     }
 ]
