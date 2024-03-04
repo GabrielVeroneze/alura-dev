@@ -105,7 +105,11 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
 
+    [Visualizar Demonstração](#personalização-do-editor)
+
 -   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
+
+    [Visualizar Demonstração](#adição-de-syntax-highlight)
 
 ### Gerenciamento de Projetos
 
