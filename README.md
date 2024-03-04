@@ -95,9 +95,13 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Navegação`: Fornece links para as principais páginas da plataforma, como a página do Editor de Código e a página da Comunidade.
 
+    [Visualizar Demonstração](#navegação)
+
 ### Editor de Código
 
 -   `Inserção de Código`: Proporciona espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
+
+    [Visualizar Demonstração](#inserção-de-código)
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
 
