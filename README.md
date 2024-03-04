@@ -338,4 +338,4 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f95892e8-4ef7-4734-b4d5-f11c725cbc07)
 
 #### `Inserção de Código`
-![[Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/61cfb281-d7fd-4087-8a34-36b7820eed2c)
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/61cfb281-d7fd-4087-8a34-36b7820eed2c)
