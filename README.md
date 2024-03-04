@@ -115,9 +115,15 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
 
+    [Visualizar Demonstração](#criar-projeto)
+
 -   `Salvar Projeto`: Permite aos usuários salvar um projeto, tornando ele disponível na página da Comunidade para visualização e interação.
 
+    [Visualizar Demonstração](#salvar-projeto)
+
 -   `Editar Projeto`: O usuário pode navegar pela página da Comunidade e clicar no card do projeto que deseja editar. Ao fazer isso, será redirecionado para o editor de código, onde poderá efetuar alterações no projeto.
+
+    [Visualizar Demonstração](#editar-projeto)
 
 ### Exportação e Feedback
 
