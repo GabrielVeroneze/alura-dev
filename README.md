@@ -349,3 +349,12 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 #### `Adição de Syntax Highlight`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/0408e286-67fe-4f0c-ad12-ac143ad798a9)
+
+#### `Criar Projeto`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/d1705eec-b9c0-42ca-9a47-b079eba49dcb)
+
+#### `Salvar Projeto`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/8639e90a-e0b7-47a8-8550-6c7e9d5fc3ba)
+
+#### `Editar Projeto`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f26b0ea6-d3de-45a3-bb18-b1ef27787868)
