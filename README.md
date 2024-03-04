@@ -343,3 +343,9 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 #### `Inserção de Código`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/61cfb281-d7fd-4087-8a34-36b7820eed2c)
+
+#### `Personalização do Editor`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f49f0e06-fee8-42c4-8af0-9185de085fb9)
+
+#### `Adição de Syntax Highlight`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/0408e286-67fe-4f0c-ad12-ac143ad798a9)
