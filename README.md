@@ -333,3 +333,6 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 #### `Página de Comunidade`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/fb62ec42-e3c4-41b1-bde7-206acd61c89a)
+
+#### `Navegação`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f95892e8-4ef7-4734-b4d5-f11c725cbc07)
