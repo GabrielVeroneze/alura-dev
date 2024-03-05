@@ -368,3 +368,9 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 #### `Editar Projeto`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f26b0ea6-d3de-45a3-bb18-b1ef27787868)
+
+#### `Exportação de Código`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/77b08b49-bcf8-4a3e-b8c3-27020bbb573c)
+
+#### `Feedback aos Usuários`
+![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/845d489e-a3be-4053-8ded-d126b63ab8e0)
