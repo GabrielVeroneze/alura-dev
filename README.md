@@ -65,7 +65,7 @@ Consiste em um layout que inclui os componentes e elementos que são encontrados
 
 -   `Botão para Exportar Código`: Possibilita salvar o código como uma imagem para compartilhamento ou uso posterior.
 
-[Visualizar Screenshot](#pc3a1gina-do-editor-de-cc3b3digo-1)
+[Visualizar Screenshot](#página-editor-de-código)
 
 ### Página de Comunidade
 
@@ -87,7 +87,7 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
     -   `Autor do Projeto`: Identifica o usuário responsável pela criação do projeto.
 
-[Visualizar Screenshot](#pc3a1gina-de-comunidade-1)
+[Visualizar Screenshot](#página-comunidade)
 
 ## :rocket: Funcionalidades e Recursos
 
@@ -347,10 +347,10 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 
 ## :camera: Demonstração Visual
 
-#### `Página do Editor de Código`
+#### `Página Editor de Código`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/775b1c8b-359d-47a1-bd57-4d3ff5cf8c47)
 
-#### `Página de Comunidade`
+#### `Página Comunidade`
 ![Alura Dev](https://github.com/GabrielVeroneze/alura-dev/assets/95183901/fb62ec42-e3c4-41b1-bde7-206acd61c89a)
 
 #### `Navegação`
