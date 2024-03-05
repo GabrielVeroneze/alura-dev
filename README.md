@@ -129,7 +129,12 @@ Nela é exibido uma lista de cards dos projetos criados pelos usuários, permiti
 
 -   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
+    [Visualizar Demonstração](#exportação-de-código)
+
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
+
+    [Visualizar Demonstração](#feedback-aos-usuários)
+
 ## :toolbox: Desenvolvimento e Implementação
 
 ### Desenvolvimento com React
