@@ -45,14 +45,6 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da 
 
 ## :building_construction: Páginas e Componentes
 
-### Layout das Páginas
-
-Consiste em um layout que inclui os componentes e elementos que são encontrados em todas as páginas da plataforma.
-
--   `Cabeçalho`: Possui a logotipo da plataforma, uma barra de pesquisa para procurar projetos ou perfis, e a imagem do perfil do usuário com o nome.
-
--   `Menu de Navegação`: Contém os links para cada uma das páginas principais da plataforma. Localizado na barra lateral esquerda.
-
 ### Página do Editor de Código
 
 É o local principal da plataforma, onde os usuários podem criar e editar projetos de forma dinâmica e interativa.
