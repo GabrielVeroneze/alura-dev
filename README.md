@@ -47,15 +47,7 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da 
 
 ### Página do Editor de Código
 
-É o local principal da plataforma, onde os usuários podem criar e editar projetos de forma dinâmica e interativa.
-
--   `Campo de Inserção de Código`: Permite aos usuários escrever e editar o código do projeto.
-
--   `Botão para Aplicar o Highlight`: Aplica o Syntax Highlight ao código, posicionado abaixo do campo de código.
-
--   `Formulário de Cadastro de Projeto`: Inclui campos para inserção do título, descrição e personalizações do projeto.
-
--   `Botão para Exportar Código`: Possibilita salvar o código como uma imagem para compartilhamento ou uso posterior.
+A página do editor de código é o local principal para criação e edição de projetos. Ela contém um campo de inserção de código com Syntax Highlight, um formulário para cadastro do projeto com título e descrição, além de um botão de exportação que permite salvar o código em formato de imagem.
 
 [Visualizar Screenshot](#página-editor-de-código)
 
