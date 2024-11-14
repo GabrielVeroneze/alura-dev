@@ -49,13 +49,21 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 1ª Edição da 
 
 A página do editor de código é o local principal para criação e edição de projetos. Ela contém um campo de inserção de código com Syntax Highlight, um formulário para cadastro do projeto com título e descrição, além de um botão de exportação que permite salvar o código em formato de imagem.
 
-[Visualizar Screenshot](#página-editor-de-código)
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/775b1c8b-359d-47a1-bd57-4d3ff5cf8c47" />
+</details>
 
 ### Página de Comunidade
 
 A página de comunidade exibe uma lista de projetos criados pelos usuários. Cada item apresenta uma miniatura do código com Syntax Highlight, o título e a descrição do projeto, as personalizações realizadas, e contadores de comentários e curtidas. Além disso, o nome do autor do projeto é exibido para identificar o criador de cada projeto.
 
-[Visualizar Screenshot](#página-comunidade)
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/fb62ec42-e3c4-41b1-bde7-206acd61c89a" />
+</details>
 
 ## :rocket: Funcionalidades e Recursos
 
