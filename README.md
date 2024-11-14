@@ -153,7 +153,7 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Componentes Funcionais`: Utiliza componentes funcionais como a base da estrutura da aplicação.
 
--   `Hooks`: Aproveita os hooks do React, como `useState`, `useEffect`, `useRef`, entre outros, para adicionar funcionalidades.
+-   `Hooks e Hooks Customizados`: Aproveita os hooks do React, como `useState`, `useEffect`, `useRef`, entre outros, além de hooks customizados que encapsulam lógica reutilizável para manipulação de dados, controle de estados, validações e outras funcionalidades específicas.
 
 -   `Props`: Utiliza props para passar dados de um componente pai para um componente filho, sem passar para componentes profundos na hierarquia.
 
@@ -196,22 +196,6 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 -   `Atualização de Dados`: Utiliza o método PUT para atualizar dados existentes na API, enviando dados modificados ou atualizados para o servidor.
 
 -   `Configuração de Headers`: Configura cabeçalhos personalizados nas requisições Axios para fornecer informações adicionais ao servidor.
-
-### Hooks Customizados
-
--   `useManipularProjetos`: Encapsula a lógica de manipulação de projetos, incluindo carregamento, cadastro e edição via requisições HTTP.
-
--   `useManipularFormulario`: Responsável por gerenciar o estado de formulários, facilitando manipulação, validação e envio.
-
--   `useProjetoAtual`: Mantém o estado do projeto selecionado, permitindo acesso e exibição de informações relevantes.
-
--   `useAplicarHighlight`: Responsável por aplicar destaque de sintaxe no código do editor.
-
--   `useCodigoEmImagem`: É utilizado para converter o código em uma imagem, possibilitando o compartilhamento do código.
-
--   `useCurtirProjeto`: Gerencia a funcionalidade de curtir projetos, atualizando o estado do projeto e contagem de curtidas.
-
--   `useMenuAberto`: Controla o estado de abertura e fechamento do menu na interface da aplicação.
 
 ### Técnicas de Estilo e Layout CSS
 
