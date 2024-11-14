@@ -71,45 +71,81 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Navegação`: Fornece links para as principais páginas da plataforma, como a página do Editor de Código e a página da Comunidade.
 
-    [Visualizar Demonstração](#navegação)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f95892e8-4ef7-4734-b4d5-f11c725cbc07" />
+    </details>
 
 ### Editor de Código
 
 -   `Inserção de Código`: Proporciona espaço destinado à inserção e edição do código fonte, possibilitando aos usuários escrever e modificar o código na linguagem escolhida.
 
-    [Visualizar Demonstração](#inserção-de-código)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/61cfb281-d7fd-4087-8a34-36b7820eed2c" />
+    </details>
 
 -   `Personalização do Editor`: Permite aos usuários ajustar as configurações do editor de código, como selecionar a linguagem de programação e escolher a cor de fundo do editor.
 
-    [Visualizar Demonstração](#personalização-do-editor)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f49f0e06-fee8-42c4-8af0-9185de085fb9" />
+    </details>
 
 -   `Adição de Syntax Highlight`: Permite aos usuários realçar a sintaxe do código dentro do editor, melhorando a legibilidade e compreensão do código fonte.
 
-    [Visualizar Demonstração](#adição-de-syntax-highlight)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/0408e286-67fe-4f0c-ad12-ac143ad798a9" />
+    </details>
 
 ### Gerenciamento de Projetos
 
 -   `Criar Projeto`: Os usuários podem criar um projeto ao preencher os campos de título e descrição, selecionar a linguagem do código dentre as opções disponíveis e escolher a cor de fundo usando um seletor de cores.
 
-    [Visualizar Demonstração](#criar-projeto)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/d1705eec-b9c0-42ca-9a47-b079eba49dcb" />
+    </details>
 
 -   `Salvar Projeto`: Permite aos usuários salvar um projeto, tornando ele disponível na página da Comunidade para visualização e interação.
 
-    [Visualizar Demonstração](#salvar-projeto)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/8639e90a-e0b7-47a8-8550-6c7e9d5fc3ba" />
+    </details>
 
 -   `Editar Projeto`: O usuário pode navegar pela página da Comunidade e clicar no card do projeto que deseja editar. Ao fazer isso, será redirecionado para o editor de código, onde poderá efetuar alterações no projeto.
 
-    [Visualizar Demonstração](#editar-projeto)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/f26b0ea6-d3de-45a3-bb18-b1ef27787868" />
+    </details>
 
 ### Exportação e Feedback
 
 -   `Exportação de Código`: Disponibiliza ao usuário a opção de exportar o código em imagem, disponível nos formatos PNG, SVG ou JPEG.
 
-    [Visualizar Demonstração](#exportação-de-código)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/77b08b49-bcf8-4a3e-b8c3-27020bbb573c" />
+    </details>
 
 -   `Feedback aos Usuários`: Utiliza snackbars para fornecer mensagens informativas sobre o status das ações realizadas.
 
-    [Visualizar Demonstração](#feedback-aos-usuários)
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/845d489e-a3be-4053-8ded-d126b63ab8e0" />
+    </details>
 
 ## :toolbox: Desenvolvimento e Implementação
 
