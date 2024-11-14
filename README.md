@@ -53,23 +53,7 @@ A página do editor de código é o local principal para criação e edição de
 
 ### Página de Comunidade
 
-Nela é exibido uma lista de cards dos projetos criados pelos usuários, permitindo aos usuários explorar e interagir com os projetos.
-
--   `Cards dos Projetos`: Representa visualmente cada projeto salvo na página de comunidade. Cada card é composto por:
-
-    -   `Miniatura do Código`: Uma visualização em miniatura do código, com o Syntax Highlight aplicado.
-
-    -   `Título do Projeto`: O título descritivo que identifica o projeto de forma clara.
-
-    -   `Descrição do Projeto`: A descrição que fornece informações adicionais sobre o conteúdo do projeto.
-
-    -   `Personalizações`: Inclui as personalizações feitas, como a cor de fundo do editor e a linguagem de programação utilizada.
-
-    -   `Contador de Comentários`: Indica o número de comentários feitos pelos usuários sobre o projeto.
-
-    -   `Contador de Curtidas`: Exibe a quantidade de curtidas recebidos pelo projeto.
-
-    -   `Autor do Projeto`: Identifica o usuário responsável pela criação do projeto.
+A página de comunidade exibe uma lista de projetos criados pelos usuários. Cada item apresenta uma miniatura do código com Syntax Highlight, o título e a descrição do projeto, as personalizações realizadas, e contadores de comentários e curtidas. Além disso, o nome do autor do projeto é exibido para identificar o criador de cada projeto.
 
 [Visualizar Screenshot](#página-comunidade)
 
