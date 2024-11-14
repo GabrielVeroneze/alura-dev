@@ -165,11 +165,7 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Estado Global com Recoil
 
--   `Recoil`: Utilizado para gerenciar o estado global da aplicação.
-
 ### Estilização com Styled Components
-
--   `Styled Components`: Adotado para estilizar os componentes React de forma modular e dinâmica.
 
 -   `Tema Personalizado`: Implementa um tema personalizado para centralizar as definições de cores, tipografia e outras propriedades de estilo utilizadas em toda a aplicação.
 
@@ -180,8 +176,6 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 -   `Estilos Globais`: Também utiliza o Styled Components para definir estilos globais que se aplicam a toda a aplicação.
 
 ### Rotas com React Router
-
--   `React Router`: Adotado para gerenciar a navegação entre diferentes páginas da aplicação.
 
 -   `Componentes de Rota`: Utiliza o componente `<Route>` do React Router para definir as rotas da aplicação.
 
@@ -194,8 +188,6 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 -   `Parâmetros de Rota`: Aproveita os parâmetros de rota do React Router para criar páginas com conteúdo personalizado, baseado nos parâmetros fornecidos na URL.
 
 ### Consumo de API com Axios
-
--   `Axios`: Utilizado para realizar requisições HTTP para a API de mock que fornece os dados dos projetos.
 
 -   `Recebimento de Dados`: Utiliza o método GET para receber dados do servidor em resposta à requisição.
 
