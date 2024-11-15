@@ -163,6 +163,20 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Eventos`: Utiliza eventos do React para lidar com interações do usuário, como cliques, digitação e foco.
 
+### Tipagem com TypeScript
+
+-   `Definições de Tipos`: Usa `interface` para definir a estrutura de dados, estabelecendo regras claras para objetos, o que facilita a organização e reutilização de tipos na aplicação.
+
+-   `Tipos Básicos e Uniões`: Utiliza tipos básicos, como `string`, `number` e `boolean`, além de `Union Types` para combinar múltiplos tipos, tornando o código mais flexível e seguro.
+
+-   `Tipos de Objetos e Arrays`: Define a tipagem de objetos e arrays, especificando as propriedades e tipos esperados, garantindo o tratamento correto das estruturas de dados.
+
+-   `Tipos de Funções`: Define tipos para funções, especificando parâmetros e valores de retorno, garantindo maior previsibilidade e reduzindo erros em chamadas de função.
+
+-   `Propriedades e Parâmetros Opcionais`: Define propriedades e parâmetros opcionais usando `?`, tornando o código mais flexível e adaptável a diferentes cenários.
+
+-   `Asserções de Tipo`: Utiliza asserções de tipo para especificar o tipo esperado de uma variável em contextos específicos, permitindo uma manipulação mais precisa e segura dos dados.
+
 ### Estado Global com Recoil
 
 ### Estilização com Styled Components
