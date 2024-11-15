@@ -179,6 +179,12 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Estado Global com Recoil
 
+-   `Fornecimento do Estado Global`: Utiliza o `RecoilRoot` para fornecer o contexto necessário, permitindo que os componentes da aplicação acessem e modifiquem estados globais.
+
+-   `Definição de Estados Globais`: Utiliza o `atom` para criar unidades de estado independentes, possibilitando que diferentes componentes leiam e atualizem esses estados de forma reativa e eficiente.
+
+-   `Gerenciamento de Estados Compartilhados`: Usa o hook `useRecoilState` para ler e atualizar estados globais, facilitando o controle de dados entre diferentes componentes.
+
 ### Estilização com Styled Components
 
 -   `Tema Personalizado`: Implementa um tema personalizado para centralizar as definições de cores, tipografia e outras propriedades de estilo utilizadas em toda a aplicação.
