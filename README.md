@@ -205,7 +205,7 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Links de Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação intuitiva e visualmente distinta, aplicando estilos específicos aos links ativos.
 
--   `Parâmetros de Rota`: Define parâmetros de rota com `:params` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
+-   `Parâmetros de Rota`: Define parâmetros de rota com `:parameter` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
 
 ### Consumo de API com Axios
 
