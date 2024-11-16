@@ -187,13 +187,15 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Estilização com Styled Components
 
--   `Tema Personalizado`: Implementa um tema personalizado para centralizar as definições de cores, tipografia e outras propriedades de estilo utilizadas em toda a aplicação.
+-   `Criação de Componentes Estilizados`: Utiliza `styled` para criar componentes com estilos integrados, garantindo uma integração eficiente entre a lógica e a aparência da interface.
 
--   `Estilização Dinâmica com Props`: Estiliza os componentes de forma dinâmica com base em props para criar componentes versáteis e reutilizáveis.
+-   `Tema Personalizado`: Implementa um tema personalizado para gerenciar a definição de cores, tipografia, espaçamentos e outras propriedades visuais, assegurando uma aparência consistente em toda a aplicação.
 
--   `Extensão de Estilos`: Utiliza a extensão de estilos para criar variações de componentes existentes sem a necessidade de duplicar código.
+-   `Estilização Dinâmica`: Aplica estilos dinâmicos baseados em props, permitindo a criação de componentes versáteis que se adaptam a diferentes estados e necessidades.
 
--   `Estilos Globais`: Também utiliza o Styled Components para definir estilos globais que se aplicam a toda a aplicação.
+-   `Extensão de Estilos`: Faz uso da extensão de estilos para criar variações de componentes existentes, evitando a duplicação de código e facilitando a manutenção do design.
+
+-   `Estilos Globais`: Utiliza `createGlobalStyle` para definir estilos globais que afetam toda a aplicação, mantendo a consistência visual e garantindo um design uniforme.
 
 ### Rotas com React Router
 
