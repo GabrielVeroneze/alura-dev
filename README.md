@@ -151,17 +151,17 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Desenvolvimento com React
 
--   `Componentes Funcionais`: Utiliza componentes funcionais como a base da estrutura da aplicação.
+-   `Componentes Funcionais e JSX`: Estrutura a interface utilizando componentes funcionais e a sintaxe declarativa do JSX, promovendo organização e legibilidade no código.
 
--   `Hooks e Hooks Customizados`: Aproveita os hooks do React, como `useState`, `useEffect`, `useRef`, entre outros, além de hooks customizados que encapsulam lógica reutilizável para manipulação de dados, controle de estados, validações e outras funcionalidades específicas.
+-   `Hooks e Hooks Customizados`: Aproveita os hooks do React, como `useState`, `useEffect`, `useRef`, entre outros, além de hooks customizados que centralizam lógica reutilizável para gerenciamento de dados, estados e validações.
 
--   `Props`: Utiliza props para passar dados de um componente pai para um componente filho, sem passar para componentes profundos na hierarquia.
+-   `Componentização`: Cria interfaces modulares e reutilizáveis, onde cada componente é responsável por uma seção específica da UI, controlando sua própria lógica, estado e renderização.
 
--   `Renderização Condicional`: Utiliza renderização condicional para controlar qual parte da interface é exibida com base em condições.
+-   `Renderização Condicional`: Controla a exibição de elementos da interface com base em estados e condições específicas, garantindo uma experiência de usuário dinâmica e personalizada.
 
--   `Renderização de Listas`: Utiliza renderização de listas para exibir conjuntos de dados dinâmicos, como itens de uma lista.
+-   `Renderização de Listas`: Utiliza renderização de listas para exibir conjuntos de dados dinâmicos de forma eficiente, iterando sobre arrays e gerando elementos estruturados.
 
--   `Eventos`: Utiliza eventos do React para lidar com interações do usuário, como cliques, digitação e foco.
+-   `Manipulação de Eventos`: Gerencia interações do usuário com eventos como `onClick`, `onChange` e `onSubmit`, tornando a aplicação mais responsiva e interativa.
 
 ### Tipagem com TypeScript
 
