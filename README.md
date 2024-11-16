@@ -197,17 +197,15 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Estilos Globais`: Utiliza `createGlobalStyle` para definir estilos globais que afetam toda a aplicação, mantendo a consistência visual e garantindo um design uniforme.
 
-### Rotas com React Router
+### Roteamento com React Router
 
--   `Componentes de Rota`: Utiliza o componente `<Route>` do React Router para definir as rotas da aplicação.
+-   `Configuração de Rotas`: Utiliza `BrowserRouter`, `Routes` e `Route` para estruturar as rotas da aplicação, permitindo a navegação dinâmica entre páginas e seções.
 
--   `Rotas Aninhadas`: Utiliza rotas aninhadas para para criar layouts reutilizáveis, compostos por vários componentes de rota aninhados.
+-   `Layout Routes`: Usa o componente `Outlet` para criar layouts reutilizáveis, permitindo que diferentes rotas compartilhem elementos comuns como cabeçalho e menu.
 
--   `Links de Navegação`: Utiliza o componente `<Link>` do React Router para criar links de navegação entre diferentes partes da aplicação.
+-   `Links de Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação intuitiva e visualmente distinta, aplicando estilos específicos aos links ativos.
 
--   `Estilos Ativos`: Utiliza o componente `<NavLink>` para aplicar estilos especiais aos links de navegação quando a rota correspondente estiver ativa.
-
--   `Parâmetros de Rota`: Aproveita os parâmetros de rota do React Router para criar páginas com conteúdo personalizado, baseado nos parâmetros fornecidos na URL.
+-   `Parâmetros de Rota`: Define parâmetros de rota com `:params` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
 
 ### Consumo de API com Axios
 
