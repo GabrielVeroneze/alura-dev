@@ -215,13 +215,11 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Técnicas de Estilo e Layout CSS
 
--   `Flexbox`: Emprega o modelo de layout flexbox para criar layouts flexíveis e responsivos na aplicação.
+-   `Flexbox`: Cria layouts flexíveis, ajustando a distribuição e o comportamento dos elementos com propriedades como `flex`, `flex-direction`, `align-items` e `justify-content`.
 
--   `Grid Layout`: Utiliza o sistema de layout grid para criar layouts avançados na aplicação.
+-   `Grid Layout`: Constrói layouts avançados com Grid Layout, controlando linhas e colunas por meio de propriedades como `grid-template-rows`, `grid-template-columns` e `gap`.
 
--   `Media Queries`: Implementa media queries para tornar a aplicação responsiva, ajustando o layout e o estilo em dispositivos móveis, tablets e desktops.
-
--   `Pseudoclasses e Pseudoelementos`: Utiliza pseudoclasses e pseudoelementos CSS para aplicar estilos a elementos.
+-   `Media Queries`: Utiliza `@media` para ajustar o layout e os estilos conforme o tamanho da tela, garantindo compatibilidade com dispositivos móveis, tablets e desktops.
 
 ### Utilização de Pacotes
 
