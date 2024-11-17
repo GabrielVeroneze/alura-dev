@@ -209,13 +209,9 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Consumo de API com Axios
 
--   `Recebimento de Dados`: Utiliza o método GET para receber dados do servidor em resposta à requisição.
+-   `Requisições HTTP`: Realiza operações como GET, POST e PUT para consumir e manipular dados vindos de APIs, garantindo uma comunicação eficiente com o backend.
 
--   `Envio de Dados`: Utiliza o método POST para enviar dados para o servidor em requisições de criação de recursos.
-
--   `Atualização de Dados`: Utiliza o método PUT para atualizar dados existentes na API, enviando dados modificados ou atualizados para o servidor.
-
--   `Configuração de Headers`: Configura cabeçalhos personalizados nas requisições Axios para fornecer informações adicionais ao servidor.
+-   `Configuração de Instância`: Utiliza o `axios.create` para criar instâncias personalizadas, centralizando configurações específicas para facilitar o gerenciamento de requisições.
 
 ### Técnicas de Estilo e Layout CSS
 
