@@ -177,7 +177,7 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Asserções de Tipo`: Utiliza asserções de tipo para especificar o tipo esperado de uma variável em contextos específicos, permitindo uma manipulação mais precisa e segura dos dados.
 
-### Estado Global com Recoil
+### Gerenciamento de Estado com Recoil
 
 -   `Fornecimento do Estado Global`: Utiliza o `RecoilRoot` para fornecer o contexto necessário, permitindo que os componentes da aplicação acessem e modifiquem estados globais.
 
@@ -207,13 +207,13 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Parâmetros de Rota`: Define parâmetros de rota com `:parameter` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
 
-### Consumo de API com Axios
+### Comunicação com API via Axios
 
 -   `Requisições HTTP`: Realiza operações como GET, POST e PUT para consumir e manipular dados vindos de APIs, garantindo uma comunicação eficiente com o backend.
 
 -   `Configuração de Instância`: Utiliza o `axios.create` para criar instâncias personalizadas, centralizando configurações específicas para facilitar o gerenciamento de requisições.
 
-### Técnicas de Estilo e Layout CSS
+### Construção de Layout
 
 -   `Flexbox`: Cria layouts flexíveis, ajustando a distribuição e o comportamento dos elementos com propriedades como `flex`, `flex-direction`, `align-items` e `justify-content`.
 
