@@ -223,17 +223,17 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ### Utilização de Pacotes
 
--   `json-server`: Ferramenta utilizada para simular uma API REST durante o desenvolvimento da aplicação.
+-   `json-server`: Utilizado para simular uma API RESTful local durante o desenvolvimento, permitindo testes rápidos sem a necessidade de um backend real.
 
--   `Highlight.js`: Utilizado para aplicar destaque de sintaxe no código do editor de código.
+-   `Highlight.js`: Implementado para aplicar destaque de sintaxe no código do editor, facilitando a leitura e compreensão do código.
 
--   `Dom-to-Image`: Adotado para converter elementos DOM em imagens estáticas.
+-   `Dom-to-Image`: Adotado para converter elementos DOM em imagens estáticas, permitindo a exportação de áreas específicas da interface.
 
--   `File Saver`: Adotado para permitir que os usuários salvem arquivos de imagens gerados ao exportar o código em imagem.
+-   `File Saver`: Usado para permitir que os usuários salvem imagens geradas ao exportar o código em formato de imagem.
 
--   `React Responsive Masonry`: Utilizado para criar layouts em estilo masonry responsivos e dinâmicos.
+-   `React Responsive Masonry`: Utilizado para criar layouts dinâmicos no estilo masonry, responsivos e ajustáveis a diferentes tamanhos de tela.
 
--   `React Toastify`: Utilizado para exibir mensagens de alerta e notificação para o usuário de forma elegante e responsiva.
+-   `React Toastify`: Usado para exibir notificações e mensagens de alerta de forma elegante e responsiva, com opções de personalização.
 
 ## :computer: Ferramentas utilizadas
 
