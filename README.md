@@ -237,9 +237,9 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 ## :computer: Ferramentas utilizadas
 
-| React | TypeScript | Recoil | Styled Components | React Router | &nbsp; Axios &nbsp; | Vite |
-| :---: | :--------: | :----: | :---------------: | :----------: | :-----------------: | :--: |
-<img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/6696dd4c-ff05-4e4d-800f-e34cc72baf6a"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/4fece894-e9e0-4334-aa4d-fdc827a42f94"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bd4e69b0-608d-4676-89ef-3ea1e9c73a24"> | <img height="85px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/607ff27f-a108-4a23-929e-8fc0f0c6a8fc"> | <img height="55px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bad822e7-d3aa-4a79-855d-ed46e163a7e5"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/3615e690-9dbf-4305-8454-1a0e4fe55a18"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/c0aee16b-710d-4a5b-b641-be2eb07607ad">
+| React | TypeScript |  Styled Components | React Router | Recoil | &nbsp; Axios &nbsp; | Vite |
+| :---: | :--------: | :----------------: | :----------: | :----: | :-----------------: | :--: |
+<img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/6696dd4c-ff05-4e4d-800f-e34cc72baf6a"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/4fece894-e9e0-4334-aa4d-fdc827a42f94"> | <img height="80px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/607ff27f-a108-4a23-929e-8fc0f0c6a8fc"> | <img height="50px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bad822e7-d3aa-4a79-855d-ed46e163a7e5"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/bd4e69b0-608d-4676-89ef-3ea1e9c73a24"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/3615e690-9dbf-4305-8454-1a0e4fe55a18"> | <img height="65px" src="https://github.com/GabrielVeroneze/alura-dev/assets/95183901/c0aee16b-710d-4a5b-b641-be2eb07607ad">
 
 ## :open_file_folder: Acesso ao projeto
 
