@@ -177,6 +177,16 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 
 -   `Asserções de Tipo`: Utiliza asserções de tipo para especificar o tipo esperado de uma variável em contextos específicos, permitindo uma manipulação mais precisa e segura dos dados.
 
+### Roteamento com React Router
+
+-   `Configuração de Rotas`: Utiliza `BrowserRouter`, `Routes` e `Route` para estruturar as rotas da aplicação, permitindo a navegação dinâmica entre páginas e seções.
+
+-   `Layout Routes`: Usa o componente `Outlet` para criar layouts reutilizáveis, permitindo que diferentes rotas compartilhem elementos comuns como cabeçalho e menu.
+
+-   `Links de Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação intuitiva e visualmente distinta, aplicando estilos específicos aos links ativos.
+
+-   `Parâmetros de Rota`: Define parâmetros de rota com `:parameter` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
+
 ### Gerenciamento de Estado com Recoil
 
 -   `Fornecimento do Estado Global`: Utiliza o `RecoilRoot` para fornecer o contexto necessário, permitindo que os componentes da aplicação acessem e modifiquem estados globais.
@@ -184,6 +194,12 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 -   `Definição de Estados Globais`: Utiliza o `atom` para criar unidades de estado independentes, possibilitando que diferentes componentes leiam e atualizem esses estados de forma reativa e eficiente.
 
 -   `Gerenciamento de Estados Compartilhados`: Usa o hook `useRecoilState` para ler e atualizar estados globais, facilitando o controle de dados entre diferentes componentes.
+
+### Comunicação com API via Axios
+
+-   `Requisições HTTP`: Realiza operações como GET, POST e PUT para consumir e manipular dados vindos de APIs, garantindo uma comunicação eficiente com o backend.
+
+-   `Configuração de Instância`: Utiliza o `axios.create` para criar instâncias personalizadas, centralizando configurações específicas para facilitar o gerenciamento de requisições.
 
 ### Estilização com Styled Components
 
@@ -196,22 +212,6 @@ A página de comunidade exibe uma lista de projetos criados pelos usuários. Cad
 -   `Extensão de Estilos`: Faz uso da extensão de estilos para criar variações de componentes existentes, evitando a duplicação de código e facilitando a manutenção do design.
 
 -   `Estilos Globais`: Utiliza `createGlobalStyle` para definir estilos globais que afetam toda a aplicação, mantendo a consistência visual e garantindo um design uniforme.
-
-### Roteamento com React Router
-
--   `Configuração de Rotas`: Utiliza `BrowserRouter`, `Routes` e `Route` para estruturar as rotas da aplicação, permitindo a navegação dinâmica entre páginas e seções.
-
--   `Layout Routes`: Usa o componente `Outlet` para criar layouts reutilizáveis, permitindo que diferentes rotas compartilhem elementos comuns como cabeçalho e menu.
-
--   `Links de Navegação`: Utiliza os componentes `Link` e `NavLink` para criar uma navegação intuitiva e visualmente distinta, aplicando estilos específicos aos links ativos.
-
--   `Parâmetros de Rota`: Define parâmetros de rota com `:parameter` na URL e usa `useParams` para acessar e exibir conteúdo personalizado conforme os valores da URL.
-
-### Comunicação com API via Axios
-
--   `Requisições HTTP`: Realiza operações como GET, POST e PUT para consumir e manipular dados vindos de APIs, garantindo uma comunicação eficiente com o backend.
-
--   `Configuração de Instância`: Utiliza o `axios.create` para criar instâncias personalizadas, centralizando configurações específicas para facilitar o gerenciamento de requisições.
 
 ### Construção de Layout
 
