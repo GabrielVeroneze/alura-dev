@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { exibirMensagem } from '@/utils/mensagemAlerta'
 import { IProjeto } from '@/interfaces/IProjeto'
-import http from '@/http'
+import api from '@/services/api'
 
 export const useManipularProjetos = () => {
     const [projetos, setProjetos] = useState<IProjeto[]>([])
@@ -11,7 +11,7 @@ export const useManipularProjetos = () => {
     }, [])
 
     const carregarProjetos = () => {
-        http
+        api
             .get<IProjeto[]>('projetos')
             .then(resposta => {
                 setProjetos(resposta.data)
@@ -19,7 +19,7 @@ export const useManipularProjetos = () => {
     }
 
     const cadastrarProjeto = (projeto: IProjeto) => {
-        http
+        api
             .post('projetos', projeto)
             .then(() => {
                 exibirMensagem('Projeto adicionado com sucesso!', 'success')
@@ -30,7 +30,7 @@ export const useManipularProjetos = () => {
     }
 
     const editarProjeto = (projeto: IProjeto) => {
-        http
+        api
             .put(`projetos/${projeto.id}`, projeto)
             .then(() => {
                 exibirMensagem('Projeto atualizado com sucesso!', 'success')

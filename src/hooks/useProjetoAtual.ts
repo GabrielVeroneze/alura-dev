@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { projetoAtualState } from '@/state/atom'
 import { getProjetoDefault } from '@/utils/projetoDefault'
 import { IProjeto } from '@/interfaces/IProjeto'
-import http from '@/http'
+import api from '@/services/api'
 
 export const useProjetoAtual = () => {
     const { id } = useParams()
@@ -12,7 +12,7 @@ export const useProjetoAtual = () => {
 
     useEffect(() => {
         if (id) {
-            http
+            api
                 .get<IProjeto>(`projetos/${id}`)
                 .then(resposta => {
                     setProjetoAtual(resposta.data)
