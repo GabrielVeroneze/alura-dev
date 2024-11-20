@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
+import { atualizarProjeto, buscarProjetos, criarProjeto } from '@/services/projetos'
 import { exibirMensagem } from '@/utils/mensagemAlerta'
 import { IProjeto } from '@/interfaces/IProjeto'
-import api from '@/services/api'
 
 export const useManipularProjetos = () => {
     const [projetos, setProjetos] = useState<IProjeto[]>([])
@@ -10,34 +10,34 @@ export const useManipularProjetos = () => {
         carregarProjetos()
     }, [])
 
-    const carregarProjetos = () => {
-        api
-            .get<IProjeto[]>('projetos')
-            .then(resposta => {
-                setProjetos(resposta.data)
-            })
+    const carregarProjetos = async () => {
+        try {
+            const projetosCarregados = await buscarProjetos()
+
+            setProjetos(projetosCarregados)
+        } catch (erro) {
+            console.log(erro)
+        }
     }
 
-    const cadastrarProjeto = (projeto: IProjeto) => {
-        api
-            .post('projetos', projeto)
-            .then(() => {
-                exibirMensagem('Projeto adicionado com sucesso!', 'success')
-            })
-            .catch(() => {
-                exibirMensagem('Erro ao cadastrar o projeto.', 'error')
-            })
+    const cadastrarProjeto = async (projeto: IProjeto) => {
+        try {
+            await criarProjeto(projeto)
+
+            exibirMensagem('Projeto adicionado com sucesso!', 'success')
+        } catch (erro) {
+            exibirMensagem(erro.message, 'error')
+        }
     }
 
-    const editarProjeto = (projeto: IProjeto) => {
-        api
-            .put(`projetos/${projeto.id}`, projeto)
-            .then(() => {
-                exibirMensagem('Projeto atualizado com sucesso!', 'success')
-            })
-            .catch(() => {
-                exibirMensagem('Erro ao editar o projeto.', 'error')
-            })
+    const editarProjeto = async (projeto: IProjeto) => {
+        try {
+            await atualizarProjeto(projeto)
+
+            exibirMensagem('Projeto atualizado com sucesso!', 'success')
+        } catch (erro) {
+            exibirMensagem(erro.message, 'error')
+        }
     }
 
     return {
