@@ -13,7 +13,7 @@ export async function buscarProjetos() {
 
 export async function criarProjeto(projeto: IProjeto) {
     try {
-        const resposta = await api.post('projetos', projeto)
+        const resposta = await api.post<IProjeto>('projetos', projeto)
 
         return resposta.status
     } catch {
@@ -23,7 +23,7 @@ export async function criarProjeto(projeto: IProjeto) {
 
 export async function atualizarProjeto(projeto: IProjeto) {
     try {
-        const resposta = await api.put(`projetos/${projeto.id}`, projeto)
+        const resposta = await api.put<IProjeto>(`projetos/${projeto.id}`, projeto)
 
         return resposta.status
     } catch {
