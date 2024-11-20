@@ -1,5 +1,5 @@
 import { IProjeto } from '@/interfaces/IProjeto'
-import api from './api'
+import api from '@/services/api'
 
 export async function buscarProjetos() {
     try {
