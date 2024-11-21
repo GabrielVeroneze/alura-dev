@@ -1,7 +1,7 @@
 import { IProjeto } from '@/interfaces/IProjeto'
 import api from '@/services/api'
 
-export async function buscarProjetos() {
+export async function buscarProjetos(): Promise<IProjeto[]> {
     try {
         const resposta = await api.get<IProjeto[]>('projetos')
         return resposta.data
@@ -10,7 +10,7 @@ export async function buscarProjetos() {
     }
 }
 
-export async function criarProjeto(projeto: IProjeto) {
+export async function criarProjeto(projeto: IProjeto): Promise<void> {
     try {
         await api.post<IProjeto>('projetos', projeto)
     } catch {
@@ -18,7 +18,7 @@ export async function criarProjeto(projeto: IProjeto) {
     }
 }
 
-export async function atualizarProjeto(projeto: IProjeto) {
+export async function atualizarProjeto(projeto: IProjeto): Promise<void> {
     try {
         await api.put<IProjeto>(`projetos/${projeto.id}`, projeto)
     } catch {
