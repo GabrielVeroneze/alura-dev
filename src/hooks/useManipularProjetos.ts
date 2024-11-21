@@ -26,7 +26,9 @@ export const useManipularProjetos = () => {
 
             exibirMensagem('Projeto adicionado com sucesso!', 'success')
         } catch (erro) {
-            exibirMensagem(erro.message, 'error')
+            if (erro instanceof Error) {
+                exibirMensagem(erro.message, 'error')
+            }
         }
     }
 
@@ -36,7 +38,9 @@ export const useManipularProjetos = () => {
 
             exibirMensagem('Projeto atualizado com sucesso!', 'success')
         } catch (erro) {
-            exibirMensagem(erro.message, 'error')
+            if (erro instanceof Error) {
+                exibirMensagem(erro.message, 'error')
+            }
         }
     }
 
