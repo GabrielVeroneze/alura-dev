@@ -3,12 +3,14 @@ import { atualizarProjeto, buscarProjetos, criarProjeto } from '@/services/proje
 import { exibirMensagem } from '@/utils/mensagemAlerta'
 import { IProjeto } from '@/interfaces/IProjeto'
 
-export const useManipularProjetos = () => {
+export const useManipularProjetos = (carregarInicialmente = true) => {
     const [projetos, setProjetos] = useState<IProjeto[]>([])
 
     useEffect(() => {
-        carregarProjetos()
-    }, [])
+        if (carregarInicialmente) {
+            carregarProjetos()
+        }
+    }, [carregarInicialmente])
 
     const carregarProjetos = async () => {
         try {
