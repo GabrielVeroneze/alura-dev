@@ -10,6 +10,15 @@ export async function buscarProjetos(): Promise<IProjeto[]> {
     }
 }
 
+export async function buscarProjetoPorId(id: string): Promise<IProjeto> {
+    try {
+        const resposta = await api.get<IProjeto>(`projetos/${id}`)
+        return resposta.data
+    } catch {
+        throw new Error('Erro ao carregar o projeto.')
+    }
+}
+
 export async function criarProjeto(projeto: IProjeto): Promise<void> {
     try {
         await api.post<IProjeto>('projetos', projeto)
