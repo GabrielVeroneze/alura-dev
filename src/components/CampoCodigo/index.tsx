@@ -11,7 +11,7 @@ interface CampoCodigoProps {
 }
 
 const CampoCodigo = ({ modo, codigo, personalizacao, codigoRef, projetoRef }: CampoCodigoProps) => {
-    const { handleDadosChange } = useManipularFormulario()
+    const { handleCodigoChange } = useManipularFormulario()
 
     return (
         <CorDeFundo
@@ -26,9 +26,7 @@ const CampoCodigo = ({ modo, codigo, personalizacao, codigoRef, projetoRef }: Ca
                     className={personalizacao.linguagem}
                     ref={codigoRef}
                     contentEditable={modo === 'editar'}
-                    onBlur={evento =>
-                        handleDadosChange('codigo', evento.target.innerText)
-                    }
+                    onBlur={evento => handleCodigoChange(evento)}
                     suppressContentEditableWarning={true}
                 >
                     {codigo}
