@@ -17,19 +17,17 @@ const Formulario = () => {
                     required
                     type="text"
                     placeholder="Nome do seu projeto"
+                    name="nome"
                     value={projetoAtual.nome}
-                    onChange={evento =>
-                        handleDadosChange('nome', evento.target.value)
-                    }
+                    onChange={evento => handleDadosChange(evento)}
                 />
                 <InputDescricao
                     required
                     type="text"
                     placeholder="Descrição do seu projeto"
+                    name="descricao"
                     value={projetoAtual.descricao}
-                    onChange={evento =>
-                        handleDadosChange('descricao', evento.target.value)
-                    }
+                    onChange={evento => handleDadosChange(evento)}
                 />
             </CampoWrapper>
             <CampoWrapper>
@@ -38,9 +36,8 @@ const Formulario = () => {
                 <InputCor
                     type="color"
                     value={projetoAtual.personalizacao.corFundo}
-                    onChange={evento =>
-                        handlePersonalizarChange('corFundo', evento.target.value)
-                    }
+                    name="corFundo"
+                    onChange={evento => handlePersonalizarChange(evento)}
                 />
             </CampoWrapper>
             <Botao type="submit">Salvar projeto</Botao>
