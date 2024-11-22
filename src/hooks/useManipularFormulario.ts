@@ -6,20 +6,20 @@ export const useManipularFormulario = () => {
     const { projetoAtual, setProjetoAtual } = useProjetoAtual()
     const { cadastrarProjeto, editarProjeto } = useManipularProjetos(false)
 
-    const handleDadosChange = (campo: 'nome' | 'descricao' | 'codigo', valor: string) => {
+    const handleDadosChange = (evento: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setProjetoAtual({
             ...projetoAtual,
-            [campo]: valor,
+            [evento.target.name]: evento.target.value,
         })
     }
 
-    const handlePersonalizarChange = (campo: 'corFundo' | 'linguagem', valor: string) => {
+    const handlePersonalizarChange = (evento: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
         setProjetoAtual({
             ...projetoAtual,
             personalizacao: {
                 ...projetoAtual.personalizacao,
-                [campo]: valor,
-            }
+                [evento.target.name]: evento.target.value,
+            },
         })
     }
 
