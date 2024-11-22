@@ -9,10 +9,9 @@ const ListaLinguagens = () => {
 
     return (
         <Select
+            name="linguagem"
             value={projetoAtual.personalizacao.linguagem}
-            onChange={evento =>
-                handlePersonalizarChange('linguagem', evento.target.value)
-            }
+            onChange={evento => handlePersonalizarChange(evento)}
         >
             {listaLinguagens.map(linguagem => (
                 <Opcao key={linguagem.valor} value={linguagem.valor}>
