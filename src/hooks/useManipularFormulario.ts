@@ -6,6 +6,13 @@ export const useManipularFormulario = () => {
     const { projetoAtual, setProjetoAtual } = useProjetoAtual()
     const { cadastrarProjeto, editarProjeto } = useManipularProjetos(false)
 
+    const handleCodigoChange = (evento: React.FocusEvent<HTMLElement, Element>) => {
+        setProjetoAtual({
+            ...projetoAtual,
+            codigo: evento.target.innerText,
+        })
+    }
+
     const handleDadosChange = (evento: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setProjetoAtual({
             ...projetoAtual,
@@ -41,6 +48,7 @@ export const useManipularFormulario = () => {
     }
 
     return {
+        handleCodigoChange,
         handleDadosChange,
         handlePersonalizarChange,
         handleFormularioSubmit,
