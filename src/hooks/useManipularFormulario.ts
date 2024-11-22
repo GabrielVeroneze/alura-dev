@@ -4,7 +4,7 @@ import { getProjetoDefault } from '@/utils/projetoDefault'
 
 export const useManipularFormulario = () => {
     const { projetoAtual, setProjetoAtual } = useProjetoAtual()
-    const { cadastrarProjeto, editarProjeto } = useManipularProjetos()
+    const { cadastrarProjeto, editarProjeto } = useManipularProjetos(false)
 
     const handleDadosChange = (campo: 'nome' | 'descricao' | 'codigo', valor: string) => {
         setProjetoAtual({
