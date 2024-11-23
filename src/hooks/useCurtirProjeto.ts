@@ -1,10 +1,10 @@
 import { useManipularProjetos } from '@/hooks/useManipularProjetos'
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 
 export const useCurtirProjeto = () => {
     const { editarProjeto, carregarProjetos } = useManipularProjetos()
 
-    const curtirProjeto = (projeto: IProjeto) => {
+    const curtirProjeto = (projeto: Projeto) => {
         if (projeto.curtidas.curtido) {
             projeto.curtidas.quantidade -= 1
         } else {

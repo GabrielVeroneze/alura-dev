@@ -1,35 +1,35 @@
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 import api from '@/services/api'
 
-export async function buscarProjetos(): Promise<IProjeto[]> {
+export async function buscarProjetos(): Promise<Projeto[]> {
     try {
-        const resposta = await api.get<IProjeto[]>('projetos')
+        const resposta = await api.get<Projeto[]>('projetos')
         return resposta.data
     } catch {
         throw new Error('Erro ao carregar os projetos.')
     }
 }
 
-export async function buscarProjetoPorId(id: string): Promise<IProjeto> {
+export async function buscarProjetoPorId(id: string): Promise<Projeto> {
     try {
-        const resposta = await api.get<IProjeto>(`projetos/${id}`)
+        const resposta = await api.get<Projeto>(`projetos/${id}`)
         return resposta.data
     } catch {
         throw new Error('Erro ao carregar o projeto.')
     }
 }
 
-export async function criarProjeto(projeto: IProjeto): Promise<void> {
+export async function criarProjeto(projeto: Projeto): Promise<void> {
     try {
-        await api.post<IProjeto>('projetos', projeto)
+        await api.post<Projeto>('projetos', projeto)
     } catch {
         throw new Error('Erro ao cadastrar o projeto.')
     }
 }
 
-export async function atualizarProjeto(projeto: IProjeto): Promise<void> {
+export async function atualizarProjeto(projeto: Projeto): Promise<void> {
     try {
-        await api.put<IProjeto>(`projetos/${projeto.id}`, projeto)
+        await api.put<Projeto>(`projetos/${projeto.id}`, projeto)
     } catch {
         throw new Error('Erro ao editar o projeto.')
     }

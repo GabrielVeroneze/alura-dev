@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
 import { atualizarProjeto, buscarProjetos, criarProjeto } from '@/services/projetos'
 import { exibirMensagem } from '@/utils/mensagemAlerta'
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 
 export const useManipularProjetos = (carregarInicialmente = true) => {
-    const [projetos, setProjetos] = useState<IProjeto[]>([])
+    const [projetos, setProjetos] = useState<Projeto[]>([])
 
     useEffect(() => {
         if (carregarInicialmente) {
@@ -22,7 +22,7 @@ export const useManipularProjetos = (carregarInicialmente = true) => {
         }
     }
 
-    const cadastrarProjeto = async (projeto: IProjeto) => {
+    const cadastrarProjeto = async (projeto: Projeto) => {
         try {
             await criarProjeto(projeto)
 
@@ -34,7 +34,7 @@ export const useManipularProjetos = (carregarInicialmente = true) => {
         }
     }
 
-    const editarProjeto = async (projeto: IProjeto) => {
+    const editarProjeto = async (projeto: Projeto) => {
         try {
             await atualizarProjeto(projeto)
 

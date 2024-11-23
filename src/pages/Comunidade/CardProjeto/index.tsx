@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faComment, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { useAplicarHighlight } from '@/hooks/useAplicarHighlight'
 import { useCurtirProjeto } from '@/hooks/useCurtirProjeto'
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 import { Acoes, Botao, Card, Conteudo, Descricao, Info, Quantidade, Titulo } from './styled'
 import CampoCodigo from '@/components/CampoCodigo'
 import Perfil from '@/components/Perfil'
 
 interface CardProjetoProps {
-    projeto: IProjeto
+    projeto: Projeto
 }
 
 const CardProjeto = ({ projeto }: CardProjetoProps) => {

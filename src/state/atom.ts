@@ -1,8 +1,8 @@
 import { atom } from 'recoil'
 import { getProjetoDefault } from '@/utils/projetoDefault'
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 
-export const projetoAtualState = atom<IProjeto>({
+export const projetoAtualState = atom<Projeto>({
     key: 'projetoAtualState',
     default: getProjetoDefault(),
 })

@@ -1,6 +1,6 @@
-import { IProjeto } from '@/interfaces/IProjeto'
+import { Projeto } from '@/types/Projeto'
 
-export const getProjetoDefault = (): IProjeto => ({
+export const getProjetoDefault = (): Projeto => ({
     id: '',
     nome: '',
     descricao: '',
