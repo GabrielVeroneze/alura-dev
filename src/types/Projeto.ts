@@ -1,11 +1,11 @@
-import { IPersonalizarEditor } from '@/types/IPersonalizarEditor'
+import { PersonalizarEditor } from '@/types/PersonalizarEditor'
 
-export interface IProjeto {
+export interface Projeto {
     id: string
     nome: string
     descricao: string
     codigo: string
-    personalizacao: IPersonalizarEditor
+    personalizacao: PersonalizarEditor
     curtidas: {
         quantidade: number
         curtido: boolean
