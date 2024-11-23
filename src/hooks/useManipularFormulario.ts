@@ -1,31 +1,25 @@
 import { useProjetoAtual } from '@/hooks/useProjetoAtual'
 import { useManipularProjetos } from '@/hooks/useManipularProjetos'
 import { getProjetoDefault } from '@/utils/projetoDefault'
+import { CamposDados, CamposPersonalizacao } from '@/types/Formulario'
 
 export const useManipularFormulario = () => {
     const { projetoAtual, setProjetoAtual } = useProjetoAtual()
     const { cadastrarProjeto, editarProjeto } = useManipularProjetos(false)
 
-    const handleCodigoChange = (evento: React.FocusEvent<HTMLElement, Element>) => {
+    const handleDadosChange = (campo: CamposDados, valor: string) => {
         setProjetoAtual({
             ...projetoAtual,
-            codigo: evento.target.innerText,
+            [campo]: valor,
         })
     }
 
-    const handleDadosChange = (evento: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        setProjetoAtual({
-            ...projetoAtual,
-            [evento.target.name]: evento.target.value,
-        })
-    }
-
-    const handlePersonalizarChange = (evento: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
+    const handlePersonalizarChange = (campo: CamposPersonalizacao, valor: string) => {
         setProjetoAtual({
             ...projetoAtual,
             personalizacao: {
                 ...projetoAtual.personalizacao,
-                [evento.target.name]: evento.target.value,
+                [campo]: valor,
             },
         })
     }
@@ -48,7 +42,6 @@ export const useManipularFormulario = () => {
     }
 
     return {
-        handleCodigoChange,
         handleDadosChange,
         handlePersonalizarChange,
         handleFormularioSubmit,
