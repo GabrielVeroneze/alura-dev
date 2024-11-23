@@ -1,5 +1,6 @@
 import { device } from '@/styles/Breakpoints'
 import styled from 'styled-components'
+import imagem from '@/assets/images/code-buttons.svg'
 
 export const CorDeFundo = styled.div<{ $background: string; $modo: string }>`
     background: ${({ $background }) => $background};
@@ -10,7 +11,7 @@ export const CorDeFundo = styled.div<{ $background: string; $modo: string }>`
 
 export const CaixaDeTexto = styled.pre<{ $modo: string }>`
     background-color: #141414;
-    background-image: url('images/code-buttons.svg');
+    background-image: url(${imagem});
     background-position: ${({ $modo }) => $modo === 'editar' ? '1rem 1rem' : '0.75rem 0.75rem'};
     background-repeat: no-repeat;
     border-radius: 0.5rem;
