@@ -1,4 +1,4 @@
-import { IPersonalizarEditor } from '@/interfaces/IPersonalizarEditor'
+import { IPersonalizarEditor } from '@/types/IPersonalizarEditor'
 
 export interface IProjeto {
     id: string
